@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slow-Carb Food Log</title>
+<style>
+  :root { --bg:#fafaf7; --ink:#1f2937; --muted:#6b7280; --line:#e5e7eb;
+          --green:#15803d; --amber:#b45309; --red:#b91c1c; --card:#ffffff; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+         background:var(--bg); color:var(--ink); margin:0; padding:0 16px 48px; }
+  .wrap { max-width:860px; margin:0 auto; }
+  header { padding:28px 0 8px; border-bottom:2px solid var(--ink); margin-bottom:20px; }
+  header h1 { margin:0 0 4px; font-size:1.6rem; }
+  header p { margin:0; color:var(--muted); font-size:.95rem; }
+  .daynav { display:flex; align-items:center; justify-content:space-between; margin:18px 0; }
+  .daynav button { background:var(--ink); color:#fff; border:0; border-radius:8px;
+                   padding:8px 14px; font-size:.9rem; cursor:pointer; }
+  .daynav button:disabled { opacity:.3; cursor:default; }
+  .daynav .dlabel { text-align:center; }
+  .daynav .dlabel strong { display:block; font-size:1.15rem; }
+  .daynav .dlabel span { color:var(--muted); font-size:.85rem; }
+  .totals { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:16px 0 24px; }
+  .tot { background:var(--card); border:1px solid var(--line); border-radius:10px;
+         padding:12px 8px; text-align:center; }
+  .tot .v { font-size:1.35rem; font-weight:700; }
+  .tot .k { font-size:.75rem; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+  .tot.protein { border-top:3px solid var(--green); }
+  h2 { font-size:1.1rem; margin:26px 0 10px; }
+  table { width:100%; border-collapse:collapse; background:var(--card);
+          border:1px solid var(--line); border-radius:10px; overflow:hidden; font-size:.92rem; }
+  th, td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { background:#f3f4f6; font-size:.78rem; text-transform:uppercase; letter-spacing:.04em; color:var(--muted); }
+  tr:last-child td { border-bottom:0; }
+  td.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  th.num { text-align:right; }
+  .rough { color:var(--muted); font-size:.8em; }
+  .badge { display:inline-block; font-size:.75rem; font-weight:600; border-radius:20px; padding:2px 10px; }
+  .b-ok { background:#dcfce7; color:var(--green); }
+  .b-warn { background:#fef3c7; color:var(--amber); }
+  .b-bad { background:#fee2e2; color:var(--red); }
+  .hungerbar { height:8px; background:var(--line); border-radius:4px; min-width:80px; position:relative; }
+  .hungerbar i { display:block; height:8px; border-radius:4px; background:var(--amber); }
+  ul.notes { background:var(--card); border:1px solid var(--line); border-radius:10px;
+             padding:14px 18px; font-size:.92rem; }
+  ul.notes li { margin:6px 0; }
+  footer { margin-top:32px; color:var(--muted); font-size:.8rem; }
+  @media (max-width:640px) {
+    table, thead, tbody, th, td, tr { display:block; }
+    thead { display:none; }
+    tr { border-bottom:2px solid var(--line); padding:6px 0; }
+    td { border:0; padding:4px 12px; }
+    td.num { text-align:left; }
+    td[data-k]:before { content:attr(data-k) ": "; font-weight:600; color:var(--muted); font-size:.78rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Slow-Carb Food Log</h1>
+    <p>Six-month run · Sept 14, 2026 – Mar 14, 2027 · Estimates are rough — consistency beats precision.</p>
+  </header>
+
+  <div class="daynav">
+    <button id="prev">← Prev</button>
+    <div class="dlabel"><strong id="datelabel">—</strong><span id="daylabel">—</span></div>
+    <button id="next">Next →</button>
+  </div>
+
+  <div class="totals" id="totals"></div>
+
+  <h2>Meals</h2>
+  <table id="meals"><thead><tr>
+    <th>Meal</th><th>Time</th><th>What</th>
+    <th class="num">Cal</th><th class="num">Protein</th><th class="num">Carbs</th><th class="num">Fat</th><th>Compliance</th>
+  </tr></thead><tbody></tbody></table>
+
+  <h2>Hunger timeline <span class="rough">(1 = barely hungry · 10 = ravenous)</span></h2>
+  <table id="hunger"><thead><tr>
+    <th>Time</th><th>Level</th><th></th><th>Note</th>
+  </tr></thead><tbody></tbody></table>
+
+  <h2>Activity</h2>
+  <ul class="notes" id="activity"></ul>
+
+  <h2>Compliance checks</h2>
+  <table id="checks"><thead><tr><th>Rule</th><th>Status</th></tr></thead><tbody></tbody></table>
+
+  <p class="rough" id="daynote" style="margin-top:16px;"></p>
+  <footer>Logged by Archer · updates push automatically</footer>
+</div>
+
+<script>
+const CHECK_LABELS = {
+  protein_30g_within_30min: "30g+ protein within 30 min of waking",
+  no_white_carbs: "No white carbs",
+  no_dairy: "No dairy (whey/ghee/coffee-cream excepted)",
+  no_fruit: "No fruit",
+  no_liquid_calories: "No liquid calories"
+};
+let days = [], idx = 0;
+
+function badge(text) {
+  const t = text.toLowerCase();
+  let cls = "b-ok";
+  if (/miss|no\b|not|fail|craving/i.test(t) && !/fully|compliant|ok/i.test(t)) cls = "b-bad";
+  if (/maybe|conditional|rough|acceptable/i.test(t)) cls = "b-warn";
+  if (/compliant|resisted|ok/i.test(t)) cls = "b-ok";
+  return `<span class="badge ${cls}">${text}</span>`;
+}
+function num(v, unit) {
+  if (v === null || v === undefined) return "—";
+  return `${v}${unit||""}`;
+}
+async function loadDay(i) {
+  idx = Math.max(0, Math.min(days.length-1, i));
+  const d = await (await fetch(`data/${days[idx]}.json`)).json();
+  document.getElementById("datelabel").textContent =
+    new Date(d.date+"T12:00:00").toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric"});
+  document.getElementById("daylabel").textContent = `Day ${d.day_number} of ${d.day_total}`;
+  document.getElementById("prev").disabled = idx===0;
+  document.getElementById("next").disabled = idx===days.length-1;
+
+  const t = d.totals, r = t.rough ? ' <span class="rough">~</span>' : "";
+  document.getElementById("totals").innerHTML = `
+    <div class="tot"><div class="v">${r}${t.cal}</div><div class="k">Calories</div></div>
+    <div class="tot protein"><div class="v">${r}${t.protein_g}g</div><div class="k">Protein</div></div>
+    <div class="tot"><div class="v">${r}${t.carbs_g}g</div><div class="k">Carbs</div></div>
+    <div class="tot"><div class="v">${r}${t.fat_g}g</div><div class="k">Fat</div></div>`;
+
+  document.querySelector("#meals tbody").innerHTML = d.meals.map(m => `
+    <tr><td data-k="Meal"><strong>${m.meal}</strong></td>
+        <td data-k="Time">${m.time}</td>
+        <td data-k="What">${m.items}${m.rough?' <span class="rough">(rough)</span>':''}</td>
+        <td class="num" data-k="Cal">${m.rough?"~":""}${m.cal}</td>
+        <td class="num" data-k="Protein">${m.rough?"~":""}${m.protein_g}g</td>
+        <td class="num" data-k="Carbs">${m.rough?"~":""}${m.carbs_g}g</td>
+        <td class="num" data-k="Fat">${m.rough?"~":""}${m.fat_g}g</td>
+        <td data-k="Compliance">${badge(m.compliance)}</td></tr>`).join("");
+
+  document.querySelector("#hunger tbody").innerHTML = d.hunger.map(h => `
+    <tr><td data-k="Time">${h.time}</td>
+        <td data-k="Level"><strong>${h.level===null?"—":h.level+" / 10"}</strong></td>
+        <td>${h.level===null?"":`<div class="hungerbar"><i style="width:${h.level*10}%"></i></div>`}</td>
+        <td data-k="Note">${h.note}</td></tr>`).join("");
+
+  document.getElementById("activity").innerHTML =
+    (d.activity||[]).map(a => `<li><strong>${a.time}</strong> — ${a.what}</li>`).join("") || "<li>—</li>";
+
+  document.querySelector("#checks tbody").innerHTML = Object.entries(CHECK_LABELS).map(([k,label]) => `
+    <tr><td>${label}</td><td>${d.compliance_checks[k]
+      ? '<span class="badge b-ok">Pass</span>' : '<span class="badge b-bad">Miss</span>'}</td></tr>`).join("");
+
+  document.getElementById("daynote").textContent = d.note || "";
+}
+document.getElementById("prev").onclick = () => loadDay(idx-1);
+document.getElementById("next").onclick = () => loadDay(idx+1);
+fetch("data/days.json").then(r=>r.json()).then(j => { days = j.days; loadDay(days.length-1); });
+</script>
+</body>
+</html>
