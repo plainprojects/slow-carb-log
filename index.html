@@ -46,6 +46,14 @@
              padding:14px 18px; font-size:.92rem; }
   ul.notes li { margin:6px 0; }
   footer { margin-top:32px; color:var(--muted); font-size:.8rem; }
+  #timeline { background:var(--card); border:1px solid var(--line); border-radius:10px;
+              padding:12px 8px 4px; overflow-x:auto; }
+  #timeline svg { width:100%; height:auto; display:block; min-width:640px; }
+  .tl-legend { display:flex; flex-wrap:wrap; gap:14px; font-size:.8rem; color:var(--muted); padding:8px 8px 4px; }
+  .tl-legend i { display:inline-block; width:12px; height:12px; border-radius:3px; margin-right:5px; vertical-align:-1px; }
+  .tl-insight { font-size:.92rem; background:#fffbeb; border:1px solid #fde68a;
+                border-radius:10px; padding:12px 14px; margin:10px 0 0; }
+  .tl-cap { color:var(--muted); font-size:.8rem; padding:4px 8px 8px; }
   @media (max-width:640px) {
     table, thead, tbody, th, td, tr { display:block; }
     thead { display:none; }
@@ -70,6 +78,17 @@
   </div>
 
   <div class="totals" id="totals"></div>
+
+  <h2>Day timeline <span class="rough">meals · hunger · steps · activity</span></h2>
+  <div id="timeline"></div>
+  <div class="tl-legend" id="tllegend" style="display:none">
+    <span><i style="background:#93c5fd"></i>Hourly steps (iPhone)</span>
+    <span><i style="background:#d97706"></i>Hunger / 10</span>
+    <span><i style="background:#86efac"></i>Walk / activity</span>
+    <span><i style="background:#fca5a5"></i>Confounder</span>
+  </div>
+  <p class="tl-insight" id="tlinsight" style="display:none"></p>
+  <p class="tl-cap" id="tlcap" style="display:none"></p>
 
   <h2>Meals</h2>
   <table id="meals"><thead><tr>
@@ -114,6 +133,96 @@ function num(v, unit) {
   if (v === null || v === undefined) return "—";
   return `${v}${unit||""}`;
 }
+function tmin(t){ const p=t.split(":"); return (+p[0])*60+(+p[1]); }
+function parseStart(ts){
+  const m = String(ts).match(/(\d+):(\d+)/);
+  if(!m) return null;
+  const ap = /PM/i.test(ts) ? 12 : 0;
+  let h = +m[1] % 12;
+  return (h + ap) * 60 + (+m[2]);
+}
+const MEAL_PILL = { Breakfast:"B", Coffee:"☕", Lunch:"L", Snack:"S", Dinner:"D" };
+function renderTimeline(d){
+  const box = document.getElementById("timeline");
+  const hasSteps = (d.steps_hourly||[]).length > 0;
+  const hasHunger = (d.hunger||[]).some(h => h.level !== null && h.level !== undefined);
+  if(!hasSteps && !hasHunger && !(d.events||[]).length && !(d.meals||[]).length){
+    box.innerHTML = '<p class="rough" style="padding:8px">No timeline data yet today.</p>';
+    return;
+  }
+  const W=920, H=336, padL=46, padR=14, yBase=296, yStepTop=212, yHunTop=56, yHunBot=196;
+  const t0=5*60, t1=23*60;
+  const X = m => padL + (m-t0)/(t1-t0)*(W-padL-padR);
+  const Xh = h => X(h*60);
+  const yH = l => yHunBot - (l/10)*(yHunBot-yHunTop);
+  let s = `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Day timeline">`;
+  // hunger gridlines
+  [0,5,10].forEach(l => {
+    s += `<line x1="${padL}" y1="${yH(l)}" x2="${W-padR}" y2="${yH(l)}" stroke="#e5e7eb" stroke-dasharray="4 3"/>` +
+         `<text x="${padL-8}" y="${yH(l)+4}" font-size="10" fill="#9ca3af" text-anchor="end">${l}</text>`;
+  });
+  // walk spans (behind bars)
+  (d.events||[]).filter(e=>e.kind==="walk").forEach(e => {
+    const x1=X(tmin(e.start)), x2=X(tmin(e.end));
+    s += `<rect x="${x1}" y="${yStepTop}" width="${x2-x1}" height="${yBase-yStepTop}" fill="#86efac" opacity="0.35" rx="4"/>` +
+         `<text x="${(x1+x2)/2}" y="${yStepTop+16}" font-size="10" fill="#15803d" text-anchor="middle">${e.label}</text>`;
+  });
+  // step bars
+  const steps = d.steps_hourly||[];
+  const mx = Math.max(1, ...steps.map(r=>r.steps));
+  steps.forEach(r => {
+    const hgt = Math.max(2, r.steps/mx*(yBase-yStepTop));
+    s += `<rect x="${Xh(r.hour)+2}" y="${yBase-hgt}" width="${Xh(r.hour+1)-Xh(r.hour)-4}" height="${hgt}" fill="#93c5fd" rx="2">` +
+         `<title>${r.hour}:00 — ${Math.round(r.steps)} steps</title></rect>`;
+  });
+  s += `<line x1="${padL}" y1="${yBase}" x2="${W-padR}" y2="${yBase}" stroke="#d1d5db"/>`;
+  // hunger line
+  const pts = (d.hunger||[]).filter(h=>h.level!==null&&h.level!==undefined)
+    .map(h=>({x:X(parseStart(h.time)), y:yH(h.level), level:h.level, time:h.time}))
+    .filter(p=>p.x!==null && !isNaN(p.x));
+  if(pts.length){
+    s += `<polyline points="${pts.map(p=>p.x+","+p.y).join(" ")}" fill="none" stroke="#d97706" stroke-width="2.5"/>`;
+    pts.forEach(p => {
+      s += `<circle cx="${p.x}" cy="${p.y}" r="5" fill="#d97706" stroke="#fff" stroke-width="2">` +
+           `<title>${p.time} — hunger ${p.level}/10</title></circle>` +
+           `<text x="${p.x}" y="${p.y-11}" font-size="11" font-weight="700" fill="#b45309" text-anchor="middle">${p.level}</text>`;
+    });
+  }
+  // meal pills
+  (d.meals||[]).forEach(m => {
+    const t = parseStart(m.time);
+    if(t===null||isNaN(t)) return;
+    const x = X(t), pill = MEAL_PILL[m.meal] || m.meal[0];
+    s += `<g><title>${m.meal} — ${m.time}</title>` +
+         `<rect x="${x-15}" y="8" width="30" height="22" rx="11" fill="#1f2937"/>` +
+         `<text x="${x}" y="24" font-size="12" fill="#fff" text-anchor="middle">${pill}</text>` +
+         `<text x="${x}" y="44" font-size="10" fill="#6b7280" text-anchor="middle">${m.time.split("–")[0]}</text></g>`;
+  });
+  // coffee + flag ticks at bottom lane
+  (d.events||[]).filter(e=>e.kind!=="walk").forEach(e => {
+    const x = X(tmin(e.start));
+    const col = e.kind==="flag" ? "#fca5a5" : "#d6a05c";
+    s += `<line x1="${x}" y1="${yBase}" x2="${x}" y2="${yBase+10}" stroke="${col}" stroke-width="3"/>` +
+         `<text x="${x}" y="${yBase+24}" font-size="9" fill="#6b7280" text-anchor="middle">${e.label}</text>`;
+  });
+  // hour ticks
+  for(let h=5; h<=23; h+=2){
+    const lbl = h===12?"12p":(h<12?h+"a":(h-12)+"p");
+    s += `<text x="${Xh(h)}" y="${yBase+40}" font-size="10" fill="#9ca3af" text-anchor="middle">${lbl}</text>`;
+  }
+  s += "</svg>";
+  box.innerHTML = s;
+  document.getElementById("tllegend").style.display = "flex";
+  const ins = document.getElementById("tlinsight");
+  if(d.timeline_insight){ ins.textContent = d.timeline_insight; ins.style.display = "block"; }
+  else ins.style.display = "none";
+  const cap = document.getElementById("tlcap");
+  if(hasSteps){
+    const tot = Math.round(steps.reduce((a,r)=>a+r.steps,0)).toLocaleString();
+    cap.textContent = `${tot} steps so far. ${d.steps_note||""}`;
+    cap.style.display = "block";
+  } else cap.style.display = "none";
+}
 async function loadDay(i) {
   idx = Math.max(0, Math.min(days.length-1, i));
   const d = await (await fetch(`data/${days[idx]}.json`)).json();
@@ -129,6 +238,8 @@ async function loadDay(i) {
     <div class="tot protein"><div class="v">${r}${t.protein_g}g</div><div class="k">Protein</div></div>
     <div class="tot"><div class="v">${r}${t.carbs_g}g</div><div class="k">Carbs</div></div>
     <div class="tot"><div class="v">${r}${t.fat_g}g</div><div class="k">Fat</div></div>`;
+
+  renderTimeline(d);
 
   document.querySelector("#meals tbody").innerHTML = d.meals.map(m => `
     <tr><td data-k="Meal"><strong>${m.meal}</strong></td>
