@@ -92,5 +92,12 @@
     "protein_g": 93,
     "rough": true
   },
-  "weekday": "Tuesday"
+  "weekday": "Tuesday",
+  "subjective_state": [
+    {
+      "time": "2:15 PM",
+      "type": "energy/alertness",
+      "value": "slightly groggy"
+    }
+  ]
 }
