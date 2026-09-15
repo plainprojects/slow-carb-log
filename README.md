@@ -20,6 +20,8 @@ Live: https://plainprojects.github.io/slow-carb-log/
   entry is the default view.
 - **`data/YYYY-MM-DD.json`** — one file per day. Schema below.
 - **`data/_template.json`** — blank day skeleton. Not rendered (name starts with `_`).
+- **`context.md`** — full background: baselines, DEXA history, goals, diet rules, home/cooking
+  dynamics, logging conventions, compliance rulings. Read this before interpreting the data.
 
 ## Day JSON schema
 
