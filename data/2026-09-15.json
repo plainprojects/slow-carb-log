@@ -1,0 +1,36 @@
+{
+  "activity": [],
+  "compliance_checks": {
+    "no_dairy": true,
+    "no_fruit": true,
+    "no_liquid_calories": true,
+    "no_white_carbs": true,
+    "protein_30g_within_30min": false
+  },
+  "date": "2026-09-15",
+  "day_number": 2,
+  "day_total": 182,
+  "events": [
+    {"start": "09:00", "label": "black coffee", "kind": "coffee"}
+  ],
+  "hunger": [],
+  "meals": [
+    {
+      "cal": 2,
+      "carbs_g": 0,
+      "compliance": "Compliant",
+      "fat_g": 0,
+      "items": "Black coffee, 1 cup",
+      "meal": "Coffee",
+      "protein_g": 0,
+      "rough": false,
+      "time": "9:00 AM"
+    }
+  ],
+  "note": "Day 2. Smoke test: first entry logged from natural language via Instinct.",
+  "steps_hourly": [],
+  "steps_note": "No HealthKit sync yet today.",
+  "timeline_insight": "",
+  "totals": {"cal": 2, "carbs_g": 0, "fat_g": 0, "protein_g": 0, "rough": false},
+  "weekday": "Tuesday"
+}
