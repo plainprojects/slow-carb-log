@@ -69,5 +69,12 @@
     "protein_g": 0,
     "rough": true
   },
-  "weekday": ""
+  "weekday": "",
+  "subjective_state": [
+    {
+      "time": "",
+      "type": "energy/alertness",
+      "value": ""
+    }
+  ]
 }
