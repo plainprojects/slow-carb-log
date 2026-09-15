@@ -5,16 +5,38 @@
     "no_fruit": true,
     "no_liquid_calories": true,
     "no_white_carbs": true,
-    "protein_30g_within_30min": false
+    "protein_30g_within_30min": true
   },
   "date": "2026-09-15",
   "day_number": 2,
   "day_total": 182,
   "events": [
-    {"start": "09:00", "label": "black coffee", "kind": "coffee"}
+    {"start": "09:45", "label": "black coffee", "kind": "coffee"}
   ],
   "hunger": [],
   "meals": [
+    {
+      "cal": 140,
+      "carbs_g": 1,
+      "compliance": "Fully compliant",
+      "fat_g": 10,
+      "items": "2-egg omelette, salt and pepper only",
+      "meal": "Breakfast",
+      "protein_g": 12,
+      "rough": true,
+      "time": "8:15 AM"
+    },
+    {
+      "cal": 360,
+      "carbs_g": 21,
+      "compliance": "Fully compliant; 30g protein target met",
+      "fat_g": 16,
+      "items": "Same as yesterday: unsweetened almond milk + chia seeds, 335g total (assumed ~295g almond milk + ~40g chia), plus 1 scoop Ascent whey protein (~25g protein)",
+      "meal": "Breakfast",
+      "protein_g": 33,
+      "rough": true,
+      "time": "8:45–9:15 AM"
+    },
     {
       "cal": 2,
       "carbs_g": 0,
@@ -24,13 +46,13 @@
       "meal": "Coffee",
       "protein_g": 0,
       "rough": false,
-      "time": "9:00 AM"
+      "time": "9:45 AM"
     }
   ],
-  "note": "Day 2. Smoke test: first entry logged from natural language via Instinct.",
+  "note": "Day 2. Breakfast logged from natural language; protein target met with eggs plus almond milk, chia and whey.",
   "steps_hourly": [],
   "steps_note": "No HealthKit sync yet today.",
-  "timeline_insight": "",
-  "totals": {"cal": 2, "carbs_g": 0, "fat_g": 0, "protein_g": 0, "rough": false},
+  "timeline_insight": "Breakfast delivered ~45g protein across the 8:15–9:15 AM window.",
+  "totals": {"cal": 502, "carbs_g": 22, "fat_g": 26, "protein_g": 45, "rough": true},
   "weekday": "Tuesday"
 }
