@@ -43,6 +43,9 @@ Live: https://plainprojects.github.io/slow-carb-log/
   "hunger": [                   // hunger table + amber timeline curve
     {"time": "9:50 AM", "level": 5, "note": "…"}   // level 1–10, or null (e.g. craving w/o number)
   ],
+  "subjective_state": [          // subjective energy/alertness check-ins
+    {"time": "2:15 PM", "type": "energy/alertness", "value": "slightly groggy"}
+  ],
   "activity": [                 // plain list under "Activity"
     {"time": "3:05–3:40 PM", "what": "Outdoor stroll, 35 min"}
   ],
@@ -67,6 +70,7 @@ Live: https://plainprojects.github.io/slow-carb-log/
 Notes for editors:
 - All times are **Pacific (America/Los_Angeles)**.
 - Hunger scale: **1 = barely hungry, 10 = ravenous**.
+- `subjective_state` records self-reported states separately from hunger; use `type: "energy/alertness"` for grogginess, energy, or alertness readings and preserve the user’s wording in `value`.
 - Estimates are the norm: set `"rough": true` and keep the `~` prefix behavior in `index.html`.
 - `compliance` badge coloring is keyword-based in `badge()` (`index.html`): contains
   "compliant"/"resisted" → green, "maybe"/"conditional"/"acceptable" → amber,
