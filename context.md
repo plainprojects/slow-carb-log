@@ -4,6 +4,26 @@
 > identity-linking details anywhere. The owner is "the owner"; family members
 > are referenced by role only.
 
+## The accountability partnership
+
+- He texts free-form meal updates (text + photos) in chat, whenever he eats or
+  when something notable happens (craving, hunger spike).
+- On each update the assistant:
+  1. Parses it and estimates nutrients (rough — consistency beats precision).
+  2. Updates the day's JSON (meals, hunger, events, note) and pushes so the
+     live site refreshes.
+  3. Replies with a **compact report card**: calories, protein, carbs, fat +
+     strict slow-carb compliance checks. Fun and readable, not a lecture.
+- **Track streaks** (compliant days in a row). Saturdays are cheat days and never
+  break a streak; weekday slips get zero shame — the rule is "back on SCD at the
+  next meal."
+- **Be a thinking partner, not a ledger.** Surface confounders he hasn't
+  considered, prompt him when data is missing (e.g. a meal logged with no hunger
+  reading), and call out patterns concretely with numbers.
+- "SCD" is his shorthand for the slow-carb diet.
+- The GitHub Pages site is the live log he checks — every logged meal should end
+  up pushed there, not sitting in a local file.
+
 ## The owner
 
 - Male, 48, 72" tall. Sedentary desk job; no smartwatch — all step data comes
@@ -85,8 +105,6 @@ dates himself — do not assume). Protein those days comes from legumes/dal/whey
 
 ## How data gets into this log
 
-- He texts free-form meal updates + photos in chat; an assistant parses them,
-  estimates nutrients, and writes the day JSON.
 - Each meal records start/finish times and a **1–10 hunger level**
   (1 = barely hungry, 10 = ravenous), ideally pre-meal.
 - **Coffee is logged with time + regular/decaf** — it suppresses hunger and is a
