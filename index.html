@@ -101,6 +101,13 @@
     <th>Time</th><th>Level</th><th></th><th>Note</th>
   </tr></thead><tbody></tbody></table>
 
+  <section id="subjective-section" hidden>
+    <h2>How I felt</h2>
+    <table id="subjective"><thead><tr>
+      <th>Time</th><th>Type</th><th>Value</th>
+    </tr></thead><tbody></tbody></table>
+  </section>
+
   <h2>Activity</h2>
   <ul class="notes" id="activity"></ul>
 
@@ -256,6 +263,13 @@ async function loadDay(i) {
         <td data-k="Level"><strong>${h.level===null?"—":h.level+" / 10"}</strong></td>
         <td>${h.level===null?"":`<div class="hungerbar"><i style="width:${h.level*10}%"></i></div>`}</td>
         <td data-k="Note">${h.note}</td></tr>`).join("");
+
+  const subjective = d.subjective_state || [];
+  document.getElementById("subjective-section").hidden = subjective.length === 0;
+  document.querySelector("#subjective tbody").innerHTML = subjective.map(s => `
+    <tr><td data-k="Time">${s.time}</td>
+        <td data-k="Type">${s.type}</td>
+        <td data-k="Value">${s.value}</td></tr>`).join("");
 
   document.getElementById("activity").innerHTML =
     (d.activity||[]).map(a => `<li><strong>${a.time}</strong> — ${a.what}</li>`).join("") || "<li>—</li>";
