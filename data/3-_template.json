@@ -1,0 +1,73 @@
+{
+  "activity": [
+    {
+      "time": "",
+      "what": ""
+    }
+  ],
+  "compliance_checks": {
+    "no_dairy": true,
+    "no_fruit": true,
+    "no_liquid_calories": true,
+    "no_white_carbs": true,
+    "no_food_before_8am": true
+  },
+  "date": "YYYY-MM-DD",
+  "day_number": 0,
+  "day_total": 182,
+  "events": [
+    {
+      "kind": "coffee",
+      "label": "",
+      "start": "HH:MM"
+    },
+    {
+      "kind": "flag",
+      "label": "",
+      "start": "HH:MM"
+    },
+    {
+      "end": "HH:MM",
+      "kind": "walk",
+      "label": "",
+      "start": "HH:MM"
+    }
+  ],
+  "hunger": [
+    {
+      "level": null,
+      "note": "",
+      "time": ""
+    }
+  ],
+  "meals": [
+    {
+      "cal": 0,
+      "carbs_g": 0,
+      "compliance": "",
+      "fat_g": 0,
+      "items": "",
+      "meal": "Breakfast",
+      "protein_g": 0,
+      "rough": true,
+      "time": ""
+    }
+  ],
+  "note": "",
+  "steps_hourly": [
+    {
+      "hour": 8,
+      "steps": 0
+    }
+  ],
+  "steps_note": "",
+  "timeline_insight": "",
+  "totals": {
+    "cal": 0,
+    "carbs_g": 0,
+    "fat_g": 0,
+    "protein_g": 0,
+    "rough": true
+  },
+  "weekday": ""
+}
