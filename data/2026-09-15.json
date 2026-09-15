@@ -3,6 +3,10 @@
     {
       "time": "6:45–8:00 AM",
       "what": "Tonal strength workout — active time 36:45 (excludes rest between sets), time under tension 12:57, volume 8,484 lbs, work 39 kJ, 189 Cal (Tonal), 100% movement target, 7 movements, program \"The 10-Week Hybrid…\""
+    },
+    {
+      "time": "~3:30–4:27 PM",
+      "what": "Outdoor stroll, ~55 min"
     }
   ],
   "compliance_checks": {
@@ -26,6 +30,12 @@
       "start": "09:45",
       "label": "black coffee",
       "kind": "coffee"
+    },
+    {
+      "start": "15:30",
+      "end": "16:27",
+      "label": "~55-min outdoor stroll (started ~3:30 PM)",
+      "kind": "walk"
     }
   ],
   "hunger": [
