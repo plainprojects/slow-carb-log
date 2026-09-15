@@ -1,17 +1,32 @@
 {
-  "activity": [],
+  "activity": [
+    {
+      "time": "6:45–8:00 AM",
+      "what": "Tonal strength workout — active time 36:45 (excludes rest between sets), time under tension 12:57, volume 8,484 lbs, work 39 kJ, 189 Cal (Tonal), 100% movement target, 7 movements, program \"The 10-Week Hybrid…\""
+    }
+  ],
   "compliance_checks": {
     "no_dairy": true,
     "no_fruit": true,
     "no_liquid_calories": true,
     "no_white_carbs": true,
-    "protein_30g_within_30min": true
+    "no_food_before_8am": true
   },
   "date": "2026-09-15",
   "day_number": 2,
   "day_total": 182,
   "events": [
-    {"start": "09:45", "label": "black coffee", "kind": "coffee"}
+    {
+      "start": "06:45",
+      "end": "08:00",
+      "label": "Tonal strength session (36:45 active)",
+      "kind": "walk"
+    },
+    {
+      "start": "09:45",
+      "label": "black coffee",
+      "kind": "coffee"
+    }
   ],
   "hunger": [],
   "meals": [
@@ -49,10 +64,16 @@
       "time": "9:45 AM"
     }
   ],
-  "note": "Day 2. Breakfast logged from natural language; protein target met with eggs plus almond milk, chia and whey.",
+  "note": "Day 2. Woke 5:30 AM. New morning protocol replaces the 30g/30-min protein rule: no eating before 8 AM, after meditation and (lifting days) the Tonal session — first food 8:15 AM, so today's check passes. Tonal strength session 6:45–8:00 AM. Breakfast logged from natural language.",
   "steps_hourly": [],
   "steps_note": "No HealthKit sync yet today.",
-  "timeline_insight": "Breakfast delivered ~45g protein across the 8:15–9:15 AM window.",
-  "totals": {"cal": 502, "carbs_g": 22, "fat_g": 26, "protein_g": 45, "rough": true},
+  "timeline_insight": "Tonal session 6:45–8:00 AM (36:45 active), breakfast held until 8:15 AM per the new no-food-before-8 AM rule (~45g protein across 8:15–9:15).",
+  "totals": {
+    "cal": 502,
+    "carbs_g": 22,
+    "fat_g": 26,
+    "protein_g": 45,
+    "rough": true
+  },
   "weekday": "Tuesday"
 }
