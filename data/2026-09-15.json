@@ -74,17 +74,17 @@
       "carbs_g": 125,
       "compliance": "Fully compliant",
       "fat_g": 22,
-      "items": "Costco mixed greens salad with 1.5 cups cooked kidney beans, cucumber, light oil/vinaigrette + red pepper flakes; ~2 cups yellow toor/moong-style dal.",
+      "items": "Costco mixed greens salad with 1.5 cups cooked kidney beans, cucumber, light oil/vinaigrette + red pepper flakes; ~2 cups yellow toor/moong-style dal. Ate ~90% by 1:30 PM; remaining ~10% planned for 2:30 PM.",
       "meal": "Lunch",
       "protein_g": 48,
       "rough": true,
-      "time": "12:15 PM–ongoing"
+      "time": "12:15 PM–2:30 PM"
     }
   ],
-  "note": "Day 2. Woke 5:30 AM. New morning protocol replaces the 30g/30-min protein rule: no eating before 8 AM, after meditation and (lifting days) the Tonal session — first food 8:15 AM, so today's check passes. Tonal strength session 6:45–8:00 AM. Breakfast logged from natural language. Lunch started 12:15 PM; end time pending.",
+  "note": "Day 2. Woke 5:30 AM. New morning protocol replaces the 30g/30-min protein rule: no eating before 8 AM, after meditation and (lifting days) the Tonal session — first food 8:15 AM, so today's check passes. Tonal strength session 6:45–8:00 AM. Breakfast logged from natural language. Lunch 12:15 PM–2:30 PM: ~90% eaten by 1:30 PM, remaining ~10% planned for 2:30 PM.",
   "steps_hourly": [],
   "steps_note": "No HealthKit sync yet today.",
-  "timeline_insight": "Tonal session 6:45–8:00 AM (36:45 active), breakfast held until 8:15 AM per the new no-food-before-8 AM rule (~45g protein across 8:15–9:15).",
+  "timeline_insight": "Tonal session 6:45–8:00 AM (36:45 active), breakfast held until 8:15 AM per the new no-food-before-8 AM rule (~45g protein across 8:15–9:15). Lunch split: ~90% by 1:30 PM, final ~10% at 2:30 PM.",
   "totals": {
     "cal": 1342,
     "carbs_g": 147,
