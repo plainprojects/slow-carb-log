@@ -70,6 +70,19 @@ dates himself — do not assume). Protein those days comes from legumes/dal/whey
   natural protein sources, dislikes processed food, prefers variety.
 - Family eats vegetarian at home.
 
+## Input style
+
+- **Photos first.** When measurements aren't available (which is often), he sends
+  photos of the plate plus whatever description he can. Estimate portions from
+  the photo and say what you're assuming.
+- **Free-form text.** "Had rajma and cauliflower", "ate pizza last night" —
+  parse it, don't interrogate it.
+- **Hunger readings are a first-class signal, not metadata.** He wants them
+  tracked diligently: pre-meal hunger on the 1–10 scale with as many meals as
+  possible, plus notable spikes or cravings between meals with timestamps.
+- **Timestamps matter.** Meal start/finish times, coffee time + regular/decaf —
+  the timeline analysis depends on them.
+
 ## How data gets into this log
 
 - He texts free-form meal updates + photos in chat; an assistant parses them,
@@ -96,13 +109,20 @@ dates himself — do not assume). Protein those days comes from legumes/dal/whey
 New foods: rule on them in the same Compliant / Maybe / Not-compliant frame and
 append to this table.
 
-## What matters when reading the log
+## What he's trying to learn (analytical goals)
 
-- **Protein is the headline metric.** Calories are informational, never targets.
-- The 30g-protein-within-30-minutes-of-waking rule is the single most-missed one —
-  flag it.
-- The interesting analysis is hunger vs. movement: overlay the hunger curve on
-  the step bars (the day timeline does this) and look for patterns, e.g. whether
-  a morning walk blunts the late-morning hunger spike.
+This isn't just a ledger — he wants patterns surfaced:
+
+- **Activity ↔ hunger:** does a morning walk blunt the late-morning spike? Do
+  high-step days show flatter hunger curves? The day timeline exists for this —
+  read the hunger curve against the step bars first.
+- **Protein timing ↔ satiety:** does hitting protein early change afternoon hunger?
+  Does the missed 30g-within-30-min rule show up in the 11 AM reading?
+- **Confounders:** dehydration, poor sleep, stress, coffee timing — log them; they
+  often explain hunger better than the food does.
+- When you spot a plausible pattern, say so concretely with the numbers. That's
+  the "thinking partner" job, not just data entry.
+- **Protein is the headline metric** when summarizing a day. Calories are
+  informational, never targets.
 - Streaks and honesty over perfection. This log is a thinking partner's
   instrument, not a report card.
