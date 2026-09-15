@@ -57,7 +57,7 @@ Live: https://plainprojects.github.io/slow-carb-log/
   "steps_note": "iPhone steps synced through 3:30 PM — evening hours pending.",
   "timeline_insight": "One-line auto takeaway shown under the chart.",
   "compliance_checks": {        // rendered as Pass/Miss badges
-    "protein_30g_within_30min": false, "no_white_carbs": true,
+    "no_food_before_8am": true, "no_white_carbs": true,
     "no_dairy": true, "no_fruit": true, "no_liquid_calories": true
   },
   "note": "Free-text day note shown under the tables."
