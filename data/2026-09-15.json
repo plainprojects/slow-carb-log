@@ -98,6 +98,11 @@
       "time": "2:15 PM",
       "type": "energy/alertness",
       "value": "slightly groggy"
+    },
+    {
+      "time": "2:20 PM",
+      "type": "headache",
+      "value": "tiny headache"
     }
   ]
 }
