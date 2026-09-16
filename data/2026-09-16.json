@@ -3,7 +3,7 @@
   "compliance_checks": {
     "no_dairy": true,
     "no_fruit": true,
-    "no_liquid_calories": true,
+    "no_liquid_calories": false,
     "no_white_carbs": true,
     "no_food_before_8am": false
   },
@@ -62,17 +62,28 @@
       "protein_g": 48,
       "rough": true,
       "time": "12:00–12:45 PM"
+    },
+    {
+      "cal": 200,
+      "carbs_g": 9,
+      "compliance": "Dairy-free and zero sugar; consistent with his protein-powder habit, but canonical Ferriss guidance flags drinking calories as a watch-out",
+      "fat_g": 5,
+      "items": "OWYN Pro Elite plant protein shake, chocolate, 12 fl oz",
+      "meal": "Snack / protein drink",
+      "protein_g": 32,
+      "rough": true,
+      "time": "3:35 PM"
     }
   ],
-  "note": "Day 3. Woke at 7:00 AM and skipped meditation. Breakfast from 7:35–8:00 AM: 2 eggs, unsweetened almond milk with chia seeds (no protein powder), and black coffee. Food was SCD-compliant, but today deviated from the morning protocol by skipping meditation and eating before 8 AM. Almond milk/chia portions and macros are rough estimates based on the prior breakfast. Lunch 12:00–12:45 PM at Cactus in Kirkland: Sonoran Spa Chicken with no cotija (grilled chicken breast, portobello, sautéed spinach, vegetable escabeche), following the SCD lunch-guide recommendation. Logged as compliant assuming any sweetened sauce was left off; macros are rough. Hunger at 2:40 PM: 5/10 (moderate); noted he needs water.",
+  "note": "Day 3. Woke at 7:00 AM and skipped meditation. Breakfast from 7:35–8:00 AM: 2 eggs, unsweetened almond milk with chia seeds (no protein powder), and black coffee. Food was SCD-compliant, but today deviated from the morning protocol by skipping meditation and eating before 8 AM. Almond milk/chia portions and macros are rough estimates based on the prior breakfast. Lunch 12:00–12:45 PM at Cactus in Kirkland: Sonoran Spa Chicken with no cotija (grilled chicken breast, portobello, sautéed spinach, vegetable escabeche), following the SCD lunch-guide recommendation. Logged as compliant assuming any sweetened sauce was left off; macros are rough. Hunger at 2:40 PM: 5/10 (moderate); noted he needs water. At 3:35 PM, had an OWYN Pro Elite chocolate plant protein shake (12 fl oz, dairy-free, zero sugar), logged as a protein drink/snack. This fits his protein-powder habit, though canonical Ferriss guidance flags drinking calories as a watch-out; macros are rough.",
   "steps_hourly": [],
   "steps_note": "No Apple Health sync yet today.",
-  "timeline_insight": "Woke at 7:00 AM, skipped meditation, and ate breakfast from 7:35–8:00 AM. The food itself was SCD-compliant, but breakfast began before the 8 AM cutoff. Lunch 12:00–12:45 PM was the recommended Sonoran Spa Chicken at Cactus, no cotija; compliant assuming sweetened sauce was omitted. Hunger was 5/10 at 2:40 PM, with a note to drink water.",
+  "timeline_insight": "Woke at 7:00 AM, skipped meditation, and ate breakfast from 7:35–8:00 AM. The food itself was SCD-compliant, but breakfast began before the 8 AM cutoff. Lunch 12:00–12:45 PM was the recommended Sonoran Spa Chicken at Cactus, no cotija; compliant assuming sweetened sauce was omitted. Hunger was 5/10 at 2:40 PM, with a note to drink water. A 3:35 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out.",
   "totals": {
-    "cal": 852,
-    "carbs_g": 38,
-    "fat_g": 47,
-    "protein_g": 68,
+    "cal": 1052,
+    "carbs_g": 47,
+    "fat_g": 52,
+    "protein_g": 100,
     "rough": true
   },
   "weekday": "Wednesday",
