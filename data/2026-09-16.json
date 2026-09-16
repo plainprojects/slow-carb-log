@@ -11,7 +11,13 @@
   "day_number": 3,
   "day_total": 181,
   "events": [],
-  "hunger": [],
+  "hunger": [
+    {
+      "time": "2:40 PM",
+      "level": 5,
+      "note": "Moderate hunger; noted that he needs water."
+    }
+  ],
   "meals": [
     {
       "cal": 140,
@@ -58,10 +64,10 @@
       "time": "12:00–12:45 PM"
     }
   ],
-  "note": "Day 3. Woke at 7:00 AM and skipped meditation. Breakfast from 7:35–8:00 AM: 2 eggs, unsweetened almond milk with chia seeds (no protein powder), and black coffee. Food was SCD-compliant, but today deviated from the morning protocol by skipping meditation and eating before 8 AM. Almond milk/chia portions and macros are rough estimates based on the prior breakfast. Lunch 12:00–12:45 PM at Cactus in Kirkland: Sonoran Spa Chicken with no cotija (grilled chicken breast, portobello, sautéed spinach, vegetable escabeche), following the SCD lunch-guide recommendation. Logged as compliant assuming any sweetened sauce was left off; macros are rough.",
+  "note": "Day 3. Woke at 7:00 AM and skipped meditation. Breakfast from 7:35–8:00 AM: 2 eggs, unsweetened almond milk with chia seeds (no protein powder), and black coffee. Food was SCD-compliant, but today deviated from the morning protocol by skipping meditation and eating before 8 AM. Almond milk/chia portions and macros are rough estimates based on the prior breakfast. Lunch 12:00–12:45 PM at Cactus in Kirkland: Sonoran Spa Chicken with no cotija (grilled chicken breast, portobello, sautéed spinach, vegetable escabeche), following the SCD lunch-guide recommendation. Logged as compliant assuming any sweetened sauce was left off; macros are rough. Hunger at 2:40 PM: 5/10 (moderate); noted he needs water.",
   "steps_hourly": [],
   "steps_note": "No Apple Health sync yet today.",
-  "timeline_insight": "Woke at 7:00 AM, skipped meditation, and ate breakfast from 7:35–8:00 AM. The food itself was SCD-compliant, but breakfast began before the 8 AM cutoff. Lunch 12:00–12:45 PM was the recommended Sonoran Spa Chicken at Cactus, no cotija; compliant assuming sweetened sauce was omitted.",
+  "timeline_insight": "Woke at 7:00 AM, skipped meditation, and ate breakfast from 7:35–8:00 AM. The food itself was SCD-compliant, but breakfast began before the 8 AM cutoff. Lunch 12:00–12:45 PM was the recommended Sonoran Spa Chicken at Cactus, no cotija; compliant assuming sweetened sauce was omitted. Hunger was 5/10 at 2:40 PM, with a note to drink water.",
   "totals": {
     "cal": 852,
     "carbs_g": 38,
