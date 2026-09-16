@@ -108,10 +108,51 @@
       "time": "~6:55 PM and ~7:10 PM PT"
     }
   ],
-  "note": "Day 2. Woke 5:30 AM. New morning protocol replaces the 30g/30-min protein rule: no eating before 8 AM, after meditation and (lifting days) the Tonal session — first food 8:15 AM, so today's check passes. Tonal strength session 6:45–8:00 AM. Breakfast logged from natural language. Lunch 12:15 PM–2:30 PM: ~90% eaten by 1:30 PM, remaining ~10% planned for 2:30 PM. Dinner: two servings of Banza chickpea pasta with roasted broccoli, first at ~6:55 PM PT and second at ~7:10 PM PT. Label ingredients are chickpeas, pea starch, tapioca, and xanthan gum, with no rice, corn, grains, or dairy, so dinner is fully compliant. Pasta and broccoli/oil portions remain rough estimates.",
-  "steps_hourly": [],
-  "steps_note": "No HealthKit sync yet today.",
-  "timeline_insight": "Tonal session 6:45–8:00 AM (36:45 active), breakfast held until 8:15 AM per the new no-food-before-8 AM rule (~45g protein across 8:15–9:15). Lunch split: ~90% by 1:30 PM, final ~10% at 2:30 PM. Dinner was two servings of compliant Banza chickpea pasta and roasted broccoli at ~6:55 PM and ~7:10 PM PT; macros remain rough due to estimated portions.",
+  "note": "Day 2. Woke 5:30 AM. New morning protocol replaces the 30g/30-min protein rule: no eating before 8 AM, after meditation and (lifting days) the Tonal session — first food 8:15 AM, so today's check passes. Tonal strength session 6:45–8:00 AM. Breakfast logged from natural language. Lunch 12:15 PM–2:30 PM: ~90% eaten by 1:30 PM, remaining ~10% planned for 2:30 PM. Dinner: two servings of Banza chickpea pasta with roasted broccoli, first at ~6:55 PM PT and second at ~7:10 PM PT. Label ingredients are chickpeas, pea starch, tapioca, and xanthan gum, with no rice, corn, grains, or dairy, so dinner is fully compliant. Pasta and broccoli/oil portions remain rough estimates. Apple Health via Muse logged 4,796 iPhone-only steps and 2.48 miles through ~7:30 PM PT; no watch was worn. The 4 PM 2,658-step block corroborates the reported afternoon stroll.",
+  "steps_hourly": [
+    {
+      "hour": 6,
+      "steps": 26
+    },
+    {
+      "hour": 8,
+      "steps": 276
+    },
+    {
+      "hour": 9,
+      "steps": 295
+    },
+    {
+      "hour": 10,
+      "steps": 93
+    },
+    {
+      "hour": 12,
+      "steps": 226
+    },
+    {
+      "hour": 15,
+      "steps": 868
+    },
+    {
+      "hour": 16,
+      "steps": 2658
+    },
+    {
+      "hour": 17,
+      "steps": 75
+    },
+    {
+      "hour": 18,
+      "steps": 131
+    },
+    {
+      "hour": 19,
+      "steps": 148
+    }
+  ],
+  "steps_note": "Apple Health via Muse, iPhone-only capture through ~7:30 PM PT; no watch worn. The 4 PM hour logged 2,658 steps, corroborating the reported ~3:30–4:27 PM outdoor stroll.",
+  "timeline_insight": "Tonal session 6:45–8:00 AM (36:45 active), breakfast held until 8:15 AM per the new no-food-before-8 AM rule (~45g protein across 8:15–9:15). Lunch split: ~90% by 1:30 PM, final ~10% at 2:30 PM. Dinner was two servings of compliant Banza chickpea pasta and roasted broccoli at ~6:55 PM and ~7:10 PM PT; macros remain rough due to estimated portions. Apple Health via Muse captured 4,796 iPhone-only steps through ~7:30 PM PT; the 4 PM hour’s 2,658 steps corroborate the ~3:30–4:27 PM stroll.",
   "totals": {
     "cal": 1842,
     "carbs_g": 229,
@@ -131,5 +172,8 @@
       "type": "headache",
       "value": "tiny headache"
     }
-  ]
+  ],
+  "steps_total": 4796,
+  "distance_mi": 2.48,
+  "workouts": []
 }
