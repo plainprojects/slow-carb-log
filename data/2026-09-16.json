@@ -1,0 +1,79 @@
+{
+  "activity": [],
+  "compliance_checks": {
+    "no_dairy": true,
+    "no_fruit": true,
+    "no_liquid_calories": true,
+    "no_white_carbs": true,
+    "no_food_before_8am": false
+  },
+  "date": "2026-09-16",
+  "day_number": 3,
+  "day_total": 181,
+  "events": [
+    {
+      "start": "07:35",
+      "end": "08:00",
+      "label": "breakfast",
+      "kind": "meal"
+    },
+    {
+      "start": "07:35",
+      "end": "08:00",
+      "label": "black coffee",
+      "kind": "coffee"
+    }
+  ],
+  "hunger": [],
+  "meals": [
+    {
+      "cal": 140,
+      "carbs_g": 1,
+      "compliance": "SCD-compliant; ate before 8 AM and skipped meditation",
+      "fat_g": 10,
+      "items": "2 eggs",
+      "meal": "Breakfast",
+      "protein_g": 12,
+      "rough": true,
+      "time": "7:35–8:00 AM"
+    },
+    {
+      "cal": 240,
+      "carbs_g": 19,
+      "compliance": "SCD-compliant; no protein powder; ate before 8 AM and skipped meditation",
+      "fat_g": 15,
+      "items": "Unsweetened almond milk + chia seeds, no protein powder (portion estimated from prior breakfast)",
+      "meal": "Breakfast",
+      "protein_g": 8,
+      "rough": true,
+      "time": "7:35–8:00 AM"
+    },
+    {
+      "cal": 2,
+      "carbs_g": 0,
+      "compliance": "SCD-compliant",
+      "fat_g": 0,
+      "items": "Black coffee",
+      "meal": "Coffee",
+      "protein_g": 0,
+      "rough": false,
+      "time": "7:35–8:00 AM"
+    }
+  ],
+  "note": "Day 3. Woke at 7:00 AM and skipped meditation. Breakfast from 7:35–8:00 AM: 2 eggs, unsweetened almond milk with chia seeds (no protein powder), and black coffee. Food was SCD-compliant, but today deviated from the morning protocol by skipping meditation and eating before 8 AM. Almond milk/chia portions and macros are rough estimates based on the prior breakfast.",
+  "steps_hourly": [],
+  "steps_note": "No Apple Health sync yet today.",
+  "timeline_insight": "Woke at 7:00 AM, skipped meditation, and ate breakfast from 7:35–8:00 AM. The food itself was SCD-compliant, but breakfast began before the 8 AM cutoff.",
+  "totals": {
+    "cal": 382,
+    "carbs_g": 20,
+    "fat_g": 25,
+    "protein_g": 20,
+    "rough": true
+  },
+  "weekday": "Wednesday",
+  "subjective_state": [],
+  "steps_total": 0,
+  "distance_mi": 0,
+  "workouts": []
+}
