@@ -97,26 +97,26 @@
       "time": "12:15 PM–2:30 PM"
     },
     {
-      "cal": 640,
-      "carbs_g": 86,
-      "compliance": "Maybe — pending brand/ingredient check; pure lentil-flour pasta is compliant, but rice/corn blends are not",
-      "fat_g": 16,
-      "items": "Two servings of lentil pasta with roasted broccoli; first serving photo showed roughly 1.5–2 cups on a dinner plate, lightly dressed/seasoned, with no other visible items. Second serving was the same dish. Brand TBD.",
+      "cal": 500,
+      "carbs_g": 82,
+      "compliance": "Fully compliant — Banza chickpea pasta is legume-based; label ingredients: chickpeas, pea starch, tapioca, xanthan gum (no rice, corn, grains, or dairy)",
+      "fat_g": 10,
+      "items": "Two servings of Banza chickpea pasta with roasted broccoli, first at ~6:55 PM PT and second at ~7:10 PM PT. Pasta estimated at ~4 oz dry total (two 2 oz servings) from the label: ~380 cal, 22g protein, 62g carbs (22g fiber), 6g fat. Broccoli estimated separately at ~120 cal, 6g protein, 20g carbs, 4g fat, including light roasting oil/seasoning. Portion and broccoli/oil estimates are rough.",
       "meal": "Dinner",
-      "protein_g": 32,
+      "protein_g": 28,
       "rough": true,
       "time": "~6:55 PM and ~7:10 PM PT"
     }
   ],
-  "note": "Day 2. Woke 5:30 AM. New morning protocol replaces the 30g/30-min protein rule: no eating before 8 AM, after meditation and (lifting days) the Tonal session — first food 8:15 AM, so today's check passes. Tonal strength session 6:45–8:00 AM. Breakfast logged from natural language. Lunch 12:15 PM–2:30 PM: ~90% eaten by 1:30 PM, remaining ~10% planned for 2:30 PM. Dinner: two servings of lentil pasta with roasted broccoli, first at ~6:55 PM PT and second at ~7:10 PM PT; brand/ingredients pending, so compliance remains Maybe until confirmed (pure lentil flour passes; rice/corn blends do not).",
+  "note": "Day 2. Woke 5:30 AM. New morning protocol replaces the 30g/30-min protein rule: no eating before 8 AM, after meditation and (lifting days) the Tonal session — first food 8:15 AM, so today's check passes. Tonal strength session 6:45–8:00 AM. Breakfast logged from natural language. Lunch 12:15 PM–2:30 PM: ~90% eaten by 1:30 PM, remaining ~10% planned for 2:30 PM. Dinner: two servings of Banza chickpea pasta with roasted broccoli, first at ~6:55 PM PT and second at ~7:10 PM PT. Label ingredients are chickpeas, pea starch, tapioca, and xanthan gum, with no rice, corn, grains, or dairy, so dinner is fully compliant. Pasta and broccoli/oil portions remain rough estimates.",
   "steps_hourly": [],
   "steps_note": "No HealthKit sync yet today.",
-  "timeline_insight": "Tonal session 6:45–8:00 AM (36:45 active), breakfast held until 8:15 AM per the new no-food-before-8 AM rule (~45g protein across 8:15–9:15). Lunch split: ~90% by 1:30 PM, final ~10% at 2:30 PM. Dinner was two servings of lentil pasta and broccoli at ~6:55 PM and ~7:10 PM PT; brand check pending.",
+  "timeline_insight": "Tonal session 6:45–8:00 AM (36:45 active), breakfast held until 8:15 AM per the new no-food-before-8 AM rule (~45g protein across 8:15–9:15). Lunch split: ~90% by 1:30 PM, final ~10% at 2:30 PM. Dinner was two servings of compliant Banza chickpea pasta and roasted broccoli at ~6:55 PM and ~7:10 PM PT; macros remain rough due to estimated portions.",
   "totals": {
-    "cal": 1982,
-    "carbs_g": 233,
-    "fat_g": 64,
-    "protein_g": 125,
+    "cal": 1842,
+    "carbs_g": 229,
+    "fat_g": 58,
+    "protein_g": 121,
     "rough": true
   },
   "weekday": "Tuesday",
