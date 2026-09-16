@@ -95,17 +95,28 @@
       "protein_g": 48,
       "rough": true,
       "time": "12:15 PM–2:30 PM"
+    },
+    {
+      "cal": 320,
+      "carbs_g": 43,
+      "compliance": "Maybe — pending brand/ingredient check; pure lentil-flour pasta is compliant, but rice/corn blends are not",
+      "fat_g": 8,
+      "items": "First serving of lentil pasta with roasted broccoli; photo shows roughly 1.5–2 cups on a dinner plate, lightly dressed/seasoned, with no other visible items. Brand TBD.",
+      "meal": "Dinner",
+      "protein_g": 16,
+      "rough": true,
+      "time": "~6:55 PM PT"
     }
   ],
-  "note": "Day 2. Woke 5:30 AM. New morning protocol replaces the 30g/30-min protein rule: no eating before 8 AM, after meditation and (lifting days) the Tonal session — first food 8:15 AM, so today's check passes. Tonal strength session 6:45–8:00 AM. Breakfast logged from natural language. Lunch 12:15 PM–2:30 PM: ~90% eaten by 1:30 PM, remaining ~10% planned for 2:30 PM.",
+  "note": "Day 2. Woke 5:30 AM. New morning protocol replaces the 30g/30-min protein rule: no eating before 8 AM, after meditation and (lifting days) the Tonal session — first food 8:15 AM, so today's check passes. Tonal strength session 6:45–8:00 AM. Breakfast logged from natural language. Lunch 12:15 PM–2:30 PM: ~90% eaten by 1:30 PM, remaining ~10% planned for 2:30 PM. Dinner started ~6:55 PM PT: first serving of lentil pasta with roasted broccoli; brand/ingredients pending, so compliance remains Maybe until confirmed (pure lentil flour passes; rice/corn blends do not).",
   "steps_hourly": [],
   "steps_note": "No HealthKit sync yet today.",
-  "timeline_insight": "Tonal session 6:45–8:00 AM (36:45 active), breakfast held until 8:15 AM per the new no-food-before-8 AM rule (~45g protein across 8:15–9:15). Lunch split: ~90% by 1:30 PM, final ~10% at 2:30 PM.",
+  "timeline_insight": "Tonal session 6:45–8:00 AM (36:45 active), breakfast held until 8:15 AM per the new no-food-before-8 AM rule (~45g protein across 8:15–9:15). Lunch split: ~90% by 1:30 PM, final ~10% at 2:30 PM. Dinner began ~6:55 PM PT with a first serving of lentil pasta and broccoli; brand check pending.",
   "totals": {
-    "cal": 1342,
-    "carbs_g": 147,
-    "fat_g": 48,
-    "protein_g": 93,
+    "cal": 1662,
+    "carbs_g": 190,
+    "fat_g": 56,
+    "protein_g": 109,
     "rough": true
   },
   "weekday": "Tuesday",
