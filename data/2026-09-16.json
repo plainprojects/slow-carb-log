@@ -83,17 +83,28 @@
       "protein_g": 32,
       "rough": true,
       "time": "3:35 PM"
+    },
+    {
+      "cal": 670,
+      "carbs_g": 56,
+      "compliance": "SCD-compliant; no rice, cheese, or sour cream; beans, chicken, and avocado/guacamole allowed",
+      "fat_g": 28,
+      "items": "Qdoba chicken bowl: no rice, double beans, single chicken, no cheese, no sour cream, with guacamole",
+      "meal": "Dinner",
+      "protein_g": 48,
+      "rough": true,
+      "time": "8:15–8:45 PM"
     }
   ],
-  "note": "Day 3. Woke at 7:00 AM and skipped meditation. Breakfast from 7:35–8:00 AM: 2 eggs, unsweetened almond milk with chia seeds (no protein powder), and black coffee. Food was SCD-compliant, but today deviated from the morning protocol by skipping meditation and eating before 8 AM. Almond milk/chia portions and macros are rough estimates based on the prior breakfast. Lunch 12:00–12:45 PM at Cactus in Kirkland: Sonoran Spa Chicken with no cotija (grilled chicken breast, portobello, sautéed spinach, vegetable escabeche), following the SCD lunch-guide recommendation. Logged as compliant assuming any sweetened sauce was left off; macros are rough. Hunger at 2:40 PM: 5/10 (moderate); noted he needs water. At 3:35 PM, had an OWYN Pro Elite chocolate plant protein shake (12 fl oz, dairy-free, zero sugar), logged as a protein drink/snack. This fits his protein-powder habit, though canonical Ferriss guidance flags drinking calories as a watch-out; macros are rough. At 5:15 PM, reported no hunger (0–1/10): the 3:35 PM OWYN shake was holding up well after 1h40m+ and had killed the 2:40 PM hunger-5, linking the two checks for the satiety pattern. At 6:45 PM while driving to the Tim meetup, hunger was 6/10 and climbing, with an energy dip described as a sugar crash, some yawning, and thoughts of food; dinner was imminent. The 3:35 PM OWYN shake had held about 3h10m.",
+  "note": "Day 3. Woke at 7:00 AM and skipped meditation. Breakfast from 7:35–8:00 AM: 2 eggs, unsweetened almond milk with chia seeds (no protein powder), and black coffee. Food was SCD-compliant, but today deviated from the morning protocol by skipping meditation and eating before 8 AM. Almond milk/chia portions and macros are rough estimates based on the prior breakfast. Lunch 12:00–12:45 PM at Cactus in Kirkland: Sonoran Spa Chicken with no cotija (grilled chicken breast, portobello, sautéed spinach, vegetable escabeche), following the SCD lunch-guide recommendation. Logged as compliant assuming any sweetened sauce was left off; macros are rough. Hunger at 2:40 PM: 5/10 (moderate); noted he needs water. At 3:35 PM, had an OWYN Pro Elite chocolate plant protein shake (12 fl oz, dairy-free, zero sugar), logged as a protein drink/snack. This fits his protein-powder habit, though canonical Ferriss guidance flags drinking calories as a watch-out; macros are rough. At 5:15 PM, reported no hunger (0–1/10): the 3:35 PM OWYN shake was holding up well after 1h40m+ and had killed the 2:40 PM hunger-5, linking the two checks for the satiety pattern. At 6:45 PM while driving to the Tim meetup, hunger was 6/10 and climbing, with an energy dip described as a sugar crash, some yawning, and thoughts of food; dinner was imminent. The 3:35 PM OWYN shake had held about 3h10m. Dinner 8:15–8:45 PM at Qdoba: chicken bowl with no rice, double beans, single chicken, no cheese, no sour cream, and guacamole. Logged SCD-compliant because avocado is allowed; estimated ~670 calories and ~48g protein, with all dinner macros marked rough.",
   "steps_hourly": [],
   "steps_note": "No Apple Health sync yet today.",
-  "timeline_insight": "Woke at 7:00 AM, skipped meditation, and ate breakfast from 7:35–8:00 AM. The food itself was SCD-compliant, but breakfast began before the 8 AM cutoff. Lunch 12:00–12:45 PM was the recommended Sonoran Spa Chicken at Cactus, no cotija; compliant assuming sweetened sauce was omitted. Hunger was 5/10 at 2:40 PM, with a note to drink water. A 3:35 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out. By 5:15 PM, hunger was 0–1/10: the 3:35 PM OWYN shake had held for 1h40m+ and killed the earlier 2:40 PM hunger-5, a useful satiety-pattern link. At 6:45 PM, hunger had climbed to 6/10 with an energy dip (described as a sugar crash), yawning, and thoughts of food while driving to the Tim meetup; dinner was imminent. The 3:35 PM OWYN shake held about 3h10m.",
+  "timeline_insight": "Woke at 7:00 AM, skipped meditation, and ate breakfast from 7:35–8:00 AM. The food itself was SCD-compliant, but breakfast began before the 8 AM cutoff. Lunch 12:00–12:45 PM was the recommended Sonoran Spa Chicken at Cactus, no cotija; compliant assuming sweetened sauce was omitted. Hunger was 5/10 at 2:40 PM, with a note to drink water. A 3:35 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out. By 5:15 PM, hunger was 0–1/10: the 3:35 PM OWYN shake had held for 1h40m+ and killed the earlier 2:40 PM hunger-5, a useful satiety-pattern link. At 6:45 PM, hunger had climbed to 6/10 with an energy dip (described as a sugar crash), yawning, and thoughts of food while driving to the Tim meetup; dinner was imminent. The 3:35 PM OWYN shake held about 3h10m. Dinner 8:15–8:45 PM was a Qdoba chicken bowl with no rice, double beans, single chicken, no cheese or sour cream, and guacamole; SCD-compliant, with rough macros.",
   "totals": {
-    "cal": 1052,
-    "carbs_g": 47,
-    "fat_g": 52,
-    "protein_g": 100,
+    "cal": 1722,
+    "carbs_g": 103,
+    "fat_g": 80,
+    "protein_g": 148,
     "rough": true
   },
   "weekday": "Wednesday",
