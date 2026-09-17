@@ -3,7 +3,7 @@
   "compliance_checks": {
     "no_dairy": true,
     "no_fruit": true,
-    "no_liquid_calories": true,
+    "no_liquid_calories": false,
     "no_white_carbs": true,
     "no_food_before_8am": false
   },
@@ -34,17 +34,39 @@
       "protein_g": 8,
       "rough": true,
       "time": "7:30 AM"
+    },
+    {
+      "cal": 550,
+      "carbs_g": 35,
+      "compliance": "SCD-compliant; corn, ranch, fried onions, and BBQ sauce omitted; oil and vinegar substituted",
+      "fat_g": 28,
+      "items": "Moss Bay Hall BBQ Ranch Chicken Salad modified per SCD lunch guide: grilled chicken, black beans, vegetables, avocado, romaine; no corn, ranch, fried onions, or BBQ sauce; oil and vinegar",
+      "meal": "Lunch",
+      "protein_g": 40,
+      "rough": true,
+      "time": "12:15–12:45 PM"
+    },
+    {
+      "cal": 200,
+      "carbs_g": 9,
+      "compliance": "Dairy-free and zero sugar; consistent with his protein-powder habit, but drinking calories remain a watch-out",
+      "fat_g": 5,
+      "items": "OWYN Pro Elite plant protein shake, 32g protein",
+      "meal": "Snack / protein drink",
+      "protein_g": 32,
+      "rough": true,
+      "time": "2:30 PM"
     }
   ],
-  "note": "Day 4. Woke at 7:00 AM. Breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder, same as Sep 16. Food was SCD-compliant, but breakfast was before the 8 AM cutoff for the second day running. Meditation was not mentioned and is marked unknown. Portions and macros are rough estimates based on the prior breakfast. Almondmilk verified as Silk organic unsweetened almondmilk; label per 1 cup (240 mL): 40 cal, 3.5g fat, 1g carb, 1g fiber, 0g sugar/added sugar, and 1g protein. Ingredients: almondmilk (water, almonds), vitamin/mineral blend, sea salt, and gellan gum; SCD-compliant. Published breakfast totals remain unchanged; future estimates should use this label basis.",
+  "note": "Day 4. Woke at 7:00 AM. Breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder, same as Sep 16. Food was SCD-compliant, but breakfast was before the 8 AM cutoff for the second day running. Meditation was not mentioned and is marked unknown. Portions and macros are rough estimates based on the prior breakfast. Almondmilk verified as Silk organic unsweetened almondmilk; label per 1 cup (240 mL): 40 cal, 3.5g fat, 1g carb, 1g fiber, 0g sugar/added sugar, and 1g protein. Ingredients: almondmilk (water, almonds), vitamin/mineral blend, sea salt, and gellan gum; SCD-compliant. Published breakfast totals remain unchanged; future estimates should use this label basis. Lunch 12:15–12:45 PM at Moss Bay Hall: BBQ Ranch Chicken Salad modified per the SCD lunch guide with grilled chicken, black beans, vegetables, avocado, and romaine; no corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. Logged SCD-compliant with rough macros (~550 cal, ~40g protein). At 2:30 PM, drank an OWYN Pro Elite shake (32g protein), logged rough at ~200 cal, 9g carbs, and 5g fat; dairy-free/zero sugar but drinking calories remain a watch-out.",
   "steps_hourly": [],
   "steps_note": "No Apple Health sync yet today.",
-  "timeline_insight": "Woke at 7:00 AM and ate an SCD-compliant breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder. This was the second day running with food before the 8 AM cutoff. Meditation status is unknown.",
+  "timeline_insight": "Woke at 7:00 AM and ate an SCD-compliant breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder. This was the second day running with food before the 8 AM cutoff. Meditation status is unknown. Lunch 12:15–12:45 PM at Moss Bay Hall was the modified BBQ Ranch Chicken Salad from the SCD lunch guide: grilled chicken, black beans, vegetables, avocado, and romaine, without corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. A 2:30 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out.",
   "totals": {
-    "cal": 382,
-    "carbs_g": 20,
-    "fat_g": 25,
-    "protein_g": 20,
+    "cal": 1132,
+    "carbs_g": 64,
+    "fat_g": 58,
+    "protein_g": 92,
     "rough": true
   },
   "weekday": "Thursday",
