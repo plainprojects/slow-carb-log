@@ -15,7 +15,7 @@
     {
       "time": "4:26 PM",
       "level": 7.5,
-      "note": "Sharp rise to 7.5/10. Asked whether Kirkland roasted & salted peanuts were SCD-allowed; advised yes as a measured ~1 oz portion because peanuts are legumes and there is no sugar coating, but not to graze from the tin. No snack logged pending confirmation."
+      "note": "Sharp rise to 7.5/10. Asked whether Kirkland roasted & salted peanuts were SCD-allowed; advised yes as a measured ~1 oz portion because peanuts are legumes and there is no sugar coating, but not to graze from the tin. Ate one measured serving (1/4 cup / ~28g) at 4:42 PM in response."
     }
   ],
   "meals": [
@@ -62,17 +62,28 @@
       "protein_g": 32,
       "rough": true,
       "time": "2:30 PM"
+    },
+    {
+      "cal": 170,
+      "carbs_g": 6,
+      "compliance": "SCD-compliant measured portion; peanuts are legumes and this product has no sugar coating",
+      "fat_g": 14,
+      "items": "Kirkland roasted & salted peanuts, one measured serving (1/4 cup / ~28g)",
+      "meal": "Snack",
+      "protein_g": 7,
+      "rough": true,
+      "time": "4:42 PM"
     }
   ],
-  "note": "Day 4. Woke at 7:00 AM. Breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder, same as Sep 16. Food was SCD-compliant, but breakfast was before the 8 AM cutoff for the second day running. Meditation was not mentioned and is marked unknown. Portions and macros are rough estimates based on the prior breakfast. Almondmilk verified as Silk organic unsweetened almondmilk; label per 1 cup (240 mL): 40 cal, 3.5g fat, 1g carb, 1g fiber, 0g sugar/added sugar, and 1g protein. Ingredients: almondmilk (water, almonds), vitamin/mineral blend, sea salt, and gellan gum; SCD-compliant. Published breakfast totals remain unchanged; future estimates should use this label basis. Lunch 12:15–12:45 PM at Moss Bay Hall: BBQ Ranch Chicken Salad modified per the SCD lunch guide with grilled chicken, black beans, vegetables, avocado, and romaine; no corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. Logged SCD-compliant with rough macros (~550 cal, ~40g protein). At 2:30 PM, drank an OWYN Pro Elite shake (32g protein), logged rough at ~200 cal, 9g carbs, and 5g fat; dairy-free/zero sugar but drinking calories remain a watch-out. Hunger at 4:26 PM: 7.5/10, a sharp rise. Asked about Kirkland roasted & salted peanuts; confirmed SCD-allowed because peanuts are legumes and the product has no sugar coating, but advised a measured ~1 oz portion and no grazing from the tin. No peanut snack is logged unless he confirms eating it.",
+  "note": "Day 4. Woke at 7:00 AM. Breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder, same as Sep 16. Food was SCD-compliant, but breakfast was before the 8 AM cutoff for the second day running. Meditation was not mentioned and is marked unknown. Portions and macros are rough estimates based on the prior breakfast. Almondmilk verified as Silk organic unsweetened almondmilk; label per 1 cup (240 mL): 40 cal, 3.5g fat, 1g carb, 1g fiber, 0g sugar/added sugar, and 1g protein. Ingredients: almondmilk (water, almonds), vitamin/mineral blend, sea salt, and gellan gum; SCD-compliant. Published breakfast totals remain unchanged; future estimates should use this label basis. Lunch 12:15–12:45 PM at Moss Bay Hall: BBQ Ranch Chicken Salad modified per the SCD lunch guide with grilled chicken, black beans, vegetables, avocado, and romaine; no corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. Logged SCD-compliant with rough macros (~550 cal, ~40g protein). At 2:30 PM, drank an OWYN Pro Elite shake (32g protein), logged rough at ~200 cal, 9g carbs, and 5g fat; dairy-free/zero sugar but drinking calories remain a watch-out. Hunger at 4:26 PM: 7.5/10, a sharp rise. Asked about Kirkland roasted & salted peanuts; confirmed SCD-allowed because peanuts are legumes and the product has no sugar coating, but advised a measured ~1 oz portion and no grazing from the tin. At 4:42 PM, ate one measured serving of Kirkland roasted & salted peanuts (1/4 cup / ~28g) in response to the 7.5 hunger ping, logged rough at ~170 cal, 7g protein, ~6g carbs, and 14g fat.",
   "steps_hourly": [],
   "steps_note": "No Apple Health sync yet today.",
-  "timeline_insight": "Woke at 7:00 AM and ate an SCD-compliant breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder. This was the second day running with food before the 8 AM cutoff. Meditation status is unknown. Lunch 12:15–12:45 PM at Moss Bay Hall was the modified BBQ Ranch Chicken Salad from the SCD lunch guide: grilled chicken, black beans, vegetables, avocado, and romaine, without corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. A 2:30 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out. At 4:26 PM, hunger rose sharply to 7.5/10. Kirkland roasted & salted peanuts were confirmed SCD-allowed as legumes with no sugar coating, but only as a measured ~1 oz portion; no snack logged yet pending confirmation.",
+  "timeline_insight": "Woke at 7:00 AM and ate an SCD-compliant breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder. This was the second day running with food before the 8 AM cutoff. Meditation status is unknown. Lunch 12:15–12:45 PM at Moss Bay Hall was the modified BBQ Ranch Chicken Salad from the SCD lunch guide: grilled chicken, black beans, vegetables, avocado, and romaine, without corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. A 2:30 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out. At 4:26 PM, hunger rose sharply to 7.5/10. Kirkland roasted & salted peanuts were confirmed SCD-allowed as legumes with no sugar coating, but only as a measured ~1 oz portion; ate one measured serving (1/4 cup / ~28g) at 4:42 PM in response.",
   "totals": {
-    "cal": 1132,
-    "carbs_g": 64,
-    "fat_g": 58,
-    "protein_g": 92,
+    "cal": 1302,
+    "carbs_g": 70,
+    "fat_g": 72,
+    "protein_g": 99,
     "rough": true
   },
   "weekday": "Thursday",
