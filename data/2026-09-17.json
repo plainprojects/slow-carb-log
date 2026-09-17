@@ -1,0 +1,55 @@
+{
+  "activity": [],
+  "compliance_checks": {
+    "no_dairy": true,
+    "no_fruit": true,
+    "no_liquid_calories": true,
+    "no_white_carbs": true,
+    "no_food_before_8am": false
+  },
+  "date": "2026-09-17",
+  "day_number": 4,
+  "day_total": 182,
+  "events": [],
+  "hunger": [],
+  "meals": [
+    {
+      "cal": 140,
+      "carbs_g": 1,
+      "compliance": "SCD-compliant food; ate before 8 AM for the second day running; meditation status unknown",
+      "fat_g": 10,
+      "items": "2 eggs",
+      "meal": "Breakfast",
+      "protein_g": 12,
+      "rough": true,
+      "time": "7:30 AM"
+    },
+    {
+      "cal": 242,
+      "carbs_g": 19,
+      "compliance": "SCD-compliant food; no protein powder; ate before 8 AM for the second day running; meditation status unknown",
+      "fat_g": 15,
+      "items": "Silk organic unsweetened almondmilk + chia seeds, no protein powder (same portion estimate as Sep 16; almondmilk label per 1 cup: 40 cal, 3.5g fat, 1g carb, 1g protein)",
+      "meal": "Breakfast",
+      "protein_g": 8,
+      "rough": true,
+      "time": "7:30 AM"
+    }
+  ],
+  "note": "Day 4. Woke at 7:00 AM. Breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder, same as Sep 16. Food was SCD-compliant, but breakfast was before the 8 AM cutoff for the second day running. Meditation was not mentioned and is marked unknown. Portions and macros are rough estimates based on the prior breakfast. Almondmilk verified as Silk organic unsweetened almondmilk; label per 1 cup (240 mL): 40 cal, 3.5g fat, 1g carb, 1g fiber, 0g sugar/added sugar, and 1g protein. Ingredients: almondmilk (water, almonds), vitamin/mineral blend, sea salt, and gellan gum; SCD-compliant. Published breakfast totals remain unchanged; future estimates should use this label basis.",
+  "steps_hourly": [],
+  "steps_note": "No Apple Health sync yet today.",
+  "timeline_insight": "Woke at 7:00 AM and ate an SCD-compliant breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder. This was the second day running with food before the 8 AM cutoff. Meditation status is unknown.",
+  "totals": {
+    "cal": 382,
+    "carbs_g": 20,
+    "fat_g": 25,
+    "protein_g": 20,
+    "rough": true
+  },
+  "weekday": "Thursday",
+  "subjective_state": [],
+  "steps_total": 0,
+  "distance_mi": 0,
+  "workouts": []
+}
