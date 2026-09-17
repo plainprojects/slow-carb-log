@@ -11,7 +11,13 @@
   "day_number": 4,
   "day_total": 182,
   "events": [],
-  "hunger": [],
+  "hunger": [
+    {
+      "time": "4:26 PM",
+      "level": 7.5,
+      "note": "Sharp rise to 7.5/10. Asked whether Kirkland roasted & salted peanuts were SCD-allowed; advised yes as a measured ~1 oz portion because peanuts are legumes and there is no sugar coating, but not to graze from the tin. No snack logged pending confirmation."
+    }
+  ],
   "meals": [
     {
       "cal": 140,
@@ -58,10 +64,10 @@
       "time": "2:30 PM"
     }
   ],
-  "note": "Day 4. Woke at 7:00 AM. Breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder, same as Sep 16. Food was SCD-compliant, but breakfast was before the 8 AM cutoff for the second day running. Meditation was not mentioned and is marked unknown. Portions and macros are rough estimates based on the prior breakfast. Almondmilk verified as Silk organic unsweetened almondmilk; label per 1 cup (240 mL): 40 cal, 3.5g fat, 1g carb, 1g fiber, 0g sugar/added sugar, and 1g protein. Ingredients: almondmilk (water, almonds), vitamin/mineral blend, sea salt, and gellan gum; SCD-compliant. Published breakfast totals remain unchanged; future estimates should use this label basis. Lunch 12:15–12:45 PM at Moss Bay Hall: BBQ Ranch Chicken Salad modified per the SCD lunch guide with grilled chicken, black beans, vegetables, avocado, and romaine; no corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. Logged SCD-compliant with rough macros (~550 cal, ~40g protein). At 2:30 PM, drank an OWYN Pro Elite shake (32g protein), logged rough at ~200 cal, 9g carbs, and 5g fat; dairy-free/zero sugar but drinking calories remain a watch-out.",
+  "note": "Day 4. Woke at 7:00 AM. Breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder, same as Sep 16. Food was SCD-compliant, but breakfast was before the 8 AM cutoff for the second day running. Meditation was not mentioned and is marked unknown. Portions and macros are rough estimates based on the prior breakfast. Almondmilk verified as Silk organic unsweetened almondmilk; label per 1 cup (240 mL): 40 cal, 3.5g fat, 1g carb, 1g fiber, 0g sugar/added sugar, and 1g protein. Ingredients: almondmilk (water, almonds), vitamin/mineral blend, sea salt, and gellan gum; SCD-compliant. Published breakfast totals remain unchanged; future estimates should use this label basis. Lunch 12:15–12:45 PM at Moss Bay Hall: BBQ Ranch Chicken Salad modified per the SCD lunch guide with grilled chicken, black beans, vegetables, avocado, and romaine; no corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. Logged SCD-compliant with rough macros (~550 cal, ~40g protein). At 2:30 PM, drank an OWYN Pro Elite shake (32g protein), logged rough at ~200 cal, 9g carbs, and 5g fat; dairy-free/zero sugar but drinking calories remain a watch-out. Hunger at 4:26 PM: 7.5/10, a sharp rise. Asked about Kirkland roasted & salted peanuts; confirmed SCD-allowed because peanuts are legumes and the product has no sugar coating, but advised a measured ~1 oz portion and no grazing from the tin. No peanut snack is logged unless he confirms eating it.",
   "steps_hourly": [],
   "steps_note": "No Apple Health sync yet today.",
-  "timeline_insight": "Woke at 7:00 AM and ate an SCD-compliant breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder. This was the second day running with food before the 8 AM cutoff. Meditation status is unknown. Lunch 12:15–12:45 PM at Moss Bay Hall was the modified BBQ Ranch Chicken Salad from the SCD lunch guide: grilled chicken, black beans, vegetables, avocado, and romaine, without corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. A 2:30 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out.",
+  "timeline_insight": "Woke at 7:00 AM and ate an SCD-compliant breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder. This was the second day running with food before the 8 AM cutoff. Meditation status is unknown. Lunch 12:15–12:45 PM at Moss Bay Hall was the modified BBQ Ranch Chicken Salad from the SCD lunch guide: grilled chicken, black beans, vegetables, avocado, and romaine, without corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. A 2:30 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out. At 4:26 PM, hunger rose sharply to 7.5/10. Kirkland roasted & salted peanuts were confirmed SCD-allowed as legumes with no sugar coating, but only as a measured ~1 oz portion; no snack logged yet pending confirmation.",
   "totals": {
     "cal": 1132,
     "carbs_g": 64,
