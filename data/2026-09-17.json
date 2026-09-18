@@ -53,6 +53,60 @@
       "time": "12:15–12:45 PM"
     },
     {
+  "activity": [],
+  "compliance_checks": {
+    "no_dairy": true,
+    "no_fruit": true,
+    "no_liquid_calories": false,
+    "no_white_carbs": true,
+    "no_food_before_8am": false
+  },
+  "date": "2026-09-17",
+  "day_number": 4,
+  "day_total": 182,
+  "events": [],
+  "hunger": [
+    {
+      "time": "4:26 PM",
+      "level": 7.5,
+      "note": "Sharp rise to 7.5/10. Asked whether Kirkland roasted & salted peanuts were SCD-allowed; advised yes as a measured ~1 oz portion because peanuts are legumes and there is no sugar coating, but not to graze from the tin. Ate one measured serving (1/4 cup / ~28g) at 4:42 PM in response."
+    }
+  ],
+  "meals": [
+    {
+      "cal": 140,
+      "carbs_g": 1,
+      "compliance": "SCD-compliant food; ate before 8 AM for the second day running; meditation status unknown",
+      "fat_g": 10,
+      "items": "2 eggs",
+      "meal": "Breakfast",
+      "protein_g": 12,
+      "rough": true,
+      "time": "7:30 AM"
+    },
+    {
+      "cal": 242,
+      "carbs_g": 19,
+      "compliance": "SCD-compliant food; no protein powder; ate before 8 AM for the second day running; meditation status unknown",
+      "fat_g": 15,
+      "items": "Silk organic unsweetened almondmilk + chia seeds, no protein powder (same portion estimate as Sep 16; almondmilk label per 1 cup: 40 cal, 3.5g fat, 1g carb, 1g protein)",
+      "meal": "Breakfast",
+      "protein_g": 8,
+      "rough": true,
+      "time": "7:30 AM"
+    },
+    {
+      "cal": 550,
+      "carbs_g": 35,
+      "compliance": "SCD-compliant; corn, ranch, fried onions, and BBQ sauce omitted; oil and vinegar substituted",
+      "fat_g": 28,
+      "items": "Moss Bay Hall BBQ Ranch Chicken Salad modified per SCD lunch guide: grilled chicken, black beans, vegetables, avocado, romaine; no corn, ranch, fried onions, or BBQ sauce; oil and vinegar",
+      "meal": "Lunch",
+      "protein_g": 40,
+      "rough": true,
+      "time": "12:15–12:45 PM"
+    },
+    {
       "cal": 200,
       "carbs_g": 9,
       "compliance": "Dairy-free and zero sugar; consistent with his protein-powder habit, but drinking calories remain a watch-out",
@@ -73,17 +127,28 @@
       "protein_g": 7,
       "rough": true,
       "time": "4:42 PM"
+    },
+    {
+      "cal": 750,
+      "carbs_g": 103,
+      "compliance": "Fully SCD-compliant; home-cooked vegetarian dinner. Masoor/red lentils, soybeans, and pure-moong pesarattu are legumes; batter confirmed no rice. Dinner may still receive follow-up items.",
+      "fat_g": 18,
+      "items": "Home-cooked masoor dhal (red lentils) and spinach soup (~1.5-cup bowl), boiled shelled edamame (small bowl, estimated ~3/4 cup), home-made pure-moong pesarattu (~1.5 crepes; confirmed no rice in batter), and a small pickle smear",
+      "meal": "Dinner",
+      "protein_g": 46,
+      "rough": true,
+      "time": "6:46–6:47 PM"
     }
   ],
-  "note": "Day 4. Woke at 7:00 AM. Breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder, same as Sep 16. Food was SCD-compliant, but breakfast was before the 8 AM cutoff for the second day running. Meditation was not mentioned and is marked unknown. Portions and macros are rough estimates based on the prior breakfast. Almondmilk verified as Silk organic unsweetened almondmilk; label per 1 cup (240 mL): 40 cal, 3.5g fat, 1g carb, 1g fiber, 0g sugar/added sugar, and 1g protein. Ingredients: almondmilk (water, almonds), vitamin/mineral blend, sea salt, and gellan gum; SCD-compliant. Published breakfast totals remain unchanged; future estimates should use this label basis. Lunch 12:15–12:45 PM at Moss Bay Hall: BBQ Ranch Chicken Salad modified per the SCD lunch guide with grilled chicken, black beans, vegetables, avocado, and romaine; no corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. Logged SCD-compliant with rough macros (~550 cal, ~40g protein). At 2:30 PM, drank an OWYN Pro Elite shake (32g protein), logged rough at ~200 cal, 9g carbs, and 5g fat; dairy-free/zero sugar but drinking calories remain a watch-out. Hunger at 4:26 PM: 7.5/10, a sharp rise. Asked about Kirkland roasted & salted peanuts; confirmed SCD-allowed because peanuts are legumes and the product has no sugar coating, but advised a measured ~1 oz portion and no grazing from the tin. At 4:42 PM, ate one measured serving of Kirkland roasted & salted peanuts (1/4 cup / ~28g) in response to the 7.5 hunger ping, logged rough at ~170 cal, 7g protein, ~6g carbs, and 14g fat.",
+  "note": "Day 4. Woke at 7:00 AM. Breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder, same as Sep 16. Food was SCD-compliant, but breakfast was before the 8 AM cutoff for the second day running. Meditation was not mentioned and is marked unknown. Portions and macros are rough estimates based on the prior breakfast. Almondmilk verified as Silk organic unsweetened almondmilk; label per 1 cup (240 mL): 40 cal, 3.5g fat, 1g carb, 1g fiber, 0g sugar/added sugar, and 1g protein. Ingredients: almondmilk (water, almonds), vitamin/mineral blend, sea salt, and gellan gum; SCD-compliant. Published breakfast totals remain unchanged; future estimates should use this label basis. Lunch 12:15–12:45 PM at Moss Bay Hall: BBQ Ranch Chicken Salad modified per the SCD lunch guide with grilled chicken, black beans, vegetables, avocado, and romaine; no corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. Logged SCD-compliant with rough macros (~550 cal, ~40g protein). At 2:30 PM, drank an OWYN Pro Elite shake (32g protein), logged rough at ~200 cal, 9g carbs, and 5g fat; dairy-free/zero sugar but drinking calories remain a watch-out. Hunger at 4:26 PM: 7.5/10, a sharp rise. Asked about Kirkland roasted & salted peanuts; confirmed SCD-allowed because peanuts are legumes and the product has no sugar coating, but advised a measured ~1 oz portion and no grazing from the tin. At 4:42 PM, ate one measured serving of Kirkland roasted & salted peanuts (1/4 cup / ~28g) in response to the 7.5 hunger ping, logged rough at ~170 cal, 7g protein, ~6g carbs, and 14g fat. Dinner at 6:46–6:47 PM: home-cooked vegetarian masoor dhal (red lentils) and spinach soup (~1.5-cup bowl), a small bowl of boiled shelled edamame (~3/4 cup), about 1.5 home-made pure-moong pesarattu, and a small pickle smear. Pesarattu batter confirmed pure moong with no rice. Dinner so far is logged rough at ~750 cal, 46g protein, ~103g carbs, and 18g fat. Fully SCD-compliant; lentils, soybeans, and moong are legumes. Additional dinner items may still follow.",
   "steps_hourly": [],
   "steps_note": "No Apple Health sync yet today.",
-  "timeline_insight": "Woke at 7:00 AM and ate an SCD-compliant breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder. This was the second day running with food before the 8 AM cutoff. Meditation status is unknown. Lunch 12:15–12:45 PM at Moss Bay Hall was the modified BBQ Ranch Chicken Salad from the SCD lunch guide: grilled chicken, black beans, vegetables, avocado, and romaine, without corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. A 2:30 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out. At 4:26 PM, hunger rose sharply to 7.5/10. Kirkland roasted & salted peanuts were confirmed SCD-allowed as legumes with no sugar coating, but only as a measured ~1 oz portion; ate one measured serving (1/4 cup / ~28g) at 4:42 PM in response.",
+  "timeline_insight": "Woke at 7:00 AM and ate an SCD-compliant breakfast at 7:30 AM: 2 eggs and almond milk with chia seeds, no protein powder. This was the second day running with food before the 8 AM cutoff. Meditation status is unknown. Lunch 12:15–12:45 PM at Moss Bay Hall was the modified BBQ Ranch Chicken Salad from the SCD lunch guide: grilled chicken, black beans, vegetables, avocado, and romaine, without corn, ranch, fried onions, or BBQ sauce; oil and vinegar instead. A 2:30 PM OWYN Pro Elite shake added 32g protein; dairy-free/zero sugar but drinking calories remain a watch-out. At 4:26 PM, hunger rose sharply to 7.5/10. Kirkland roasted & salted peanuts were confirmed SCD-allowed as legumes with no sugar coating, but only as a measured ~1 oz portion; ate one measured serving (1/4 cup / ~28g) at 4:42 PM in response. At 6:46–6:47 PM, ate a fully SCD-compliant home-cooked vegetarian dinner: masoor dhal and spinach soup, boiled shelled edamame, about 1.5 pure-moong pesarattu (confirmed no rice), and a small pickle smear. Additional items may still follow.",
   "totals": {
-    "cal": 1302,
-    "carbs_g": 70,
-    "fat_g": 72,
-    "protein_g": 99,
+    "cal": 2052,
+    "carbs_g": 173,
+    "fat_g": 90,
+    "protein_g": 145,
     "rough": true
   },
   "weekday": "Thursday",
@@ -91,4 +156,4 @@
   "steps_total": 0,
   "distance_mi": 0,
   "workouts": []
-}
+    }
