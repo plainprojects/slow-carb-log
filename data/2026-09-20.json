@@ -1,0 +1,61 @@
+{
+  "activity": [],
+  "compliance_checks": {
+    "no_dairy": true,
+    "no_fruit": true,
+    "no_liquid_calories": true,
+    "no_white_carbs": true,
+    "no_food_before_8am": true
+  },
+  "date": "2026-09-20",
+  "day_number": 6,
+  "day_total": 182,
+  "events": [
+    {
+      "kind": "coffee",
+      "label": "Black coffee",
+      "start": "08:25"
+    }
+  ],
+  "hunger": [],
+  "meals": [
+    {
+      "cal": 140,
+      "carbs_g": 1,
+      "compliance": "Fully SCD-compliant; first food of the day and after the 8 AM cutoff",
+      "fat_g": 10,
+      "items": "2 eggs",
+      "meal": "Breakfast",
+      "protein_g": 12,
+      "rough": true,
+      "time": "8:15 AM"
+    },
+    {
+      "cal": 0,
+      "carbs_g": 0,
+      "compliance": "SCD-compliant; black coffee",
+      "fat_g": 0,
+      "items": "Black coffee",
+      "meal": "Drink",
+      "protein_g": 0,
+      "rough": true,
+      "time": "8:25 AM"
+    }
+  ],
+  "note": "Day 6. First normal slow-carb day after the first cheat day on Saturday, September 19; no cheat-day entries were logged. First food at 8:15 AM: 2 eggs, after the 8 AM cutoff and fully compliant. Black coffee at 8:25 AM. Egg macros are rough based on prior logged breakfasts.",
+  "steps_hourly": [],
+  "steps_note": "No Apple Health sync yet today.",
+  "timeline_insight": "Back on the normal slow-carb protocol after the first cheat day. First food at 8:15 AM was 2 eggs, after the 8 AM cutoff, followed by black coffee at 8:25 AM.",
+  "totals": {
+    "cal": 140,
+    "carbs_g": 1,
+    "fat_g": 10,
+    "protein_g": 12,
+    "rough": true
+  },
+  "weekday": "Sunday",
+  "subjective_state": [],
+  "steps_total": 0,
+  "distance_mi": 0,
+  "workouts": []
+}
