@@ -40,17 +40,28 @@
       "protein_g": 0,
       "rough": true,
       "time": "8:25 AM"
+    },
+    {
+      "cal": 242,
+      "carbs_g": 19,
+      "compliance": "SCD-compliant; no protein powder; same portion estimate as Sep 17",
+      "fat_g": 15,
+      "items": "Silk organic unsweetened almondmilk + chia seeds, no protein powder (same portion estimate as Sep 17; almondmilk label per 1 cup: 40 cal, 3.5g fat, 1g carb, 1g protein)",
+      "meal": "Breakfast / second sitting",
+      "protein_g": 8,
+      "rough": true,
+      "time": "10:30 AM"
     }
   ],
-  "note": "Day 6. First normal slow-carb day after the first cheat day on Saturday, September 19; no cheat-day entries were logged. First food at 8:15 AM: 2 eggs, after the 8 AM cutoff and fully compliant. Black coffee at 8:25 AM. Egg macros are rough based on prior logged breakfasts.",
+  "note": "Day 6. First normal slow-carb day after the first cheat day on Saturday, September 19; no cheat-day entries were logged. First food at 8:15 AM: 2 eggs, after the 8 AM cutoff and fully compliant. Black coffee at 8:25 AM. At 10:30 AM, had Silk organic unsweetened almondmilk with chia seeds, no protein powder; portion and macros use the same rough estimate as Sep 17. Egg macros are rough based on prior logged breakfasts.",
   "steps_hourly": [],
   "steps_note": "No Apple Health sync yet today.",
-  "timeline_insight": "Back on the normal slow-carb protocol after the first cheat day. First food at 8:15 AM was 2 eggs, after the 8 AM cutoff, followed by black coffee at 8:25 AM.",
+  "timeline_insight": "Back on the normal slow-carb protocol after the first cheat day. First food at 8:15 AM was 2 eggs, after the 8 AM cutoff, followed by black coffee at 8:25 AM. At 10:30 AM, had almond milk with chia seeds, no protein powder.",
   "totals": {
-    "cal": 140,
-    "carbs_g": 1,
-    "fat_g": 10,
-    "protein_g": 12,
+    "cal": 382,
+    "carbs_g": 20,
+    "fat_g": 25,
+    "protein_g": 20,
     "rough": true
   },
   "weekday": "Sunday",
