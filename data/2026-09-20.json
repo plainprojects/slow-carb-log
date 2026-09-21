@@ -68,17 +68,28 @@
       "protein_g": 45,
       "rough": true,
       "time": "~3:41 PM"
+    },
+    {
+      "cal": 450,
+      "carbs_g": 25,
+      "compliance": "Mostly SCD-compliant: noodles skipped (major compliance win); tofu and assumed standard vegetables are compliant. Strict deviation candidate is trace sugar in the spicy miso/tare; corn was not reported and is assumed absent.",
+      "fat_g": 28,
+      "items": "Menya Muso Seattle spicy miso broth bowl with tofu and standard bowl vegetables (bean sprouts and green onion assumed), NO noodles; no corn assumed unless later reported",
+      "meal": "Dinner",
+      "protein_g": 20,
+      "rough": true,
+      "time": "~7:45 PM"
     }
   ],
-  "note": "Day 6. First normal slow-carb day after the first cheat day on Saturday, September 19; no cheat-day entries were logged. First food at 8:15 AM: 2 eggs, after the 8 AM cutoff and fully compliant. Black coffee at 8:25 AM. At 10:30 AM, had Silk organic unsweetened almondmilk with chia seeds, no protein powder; portion and macros use the same rough estimate as Sep 17. Egg macros are rough based on prior logged breakfasts. Hunger at about 11:24 AM was 7/10; Madhu thought this was likely post-cheat-day calorie expectation. No snack was taken under the standing no-snacks rule. At about 3:41 PM, had roasted chicken from the PCC Green Lake Village hot bar in Seattle. Purchased 0.58 lb at $11.99/lb ($7.68 with tax); photo showed roughly 2 drumsticks plus a thigh portion. Estimated edible meat 150–180g and logged rough at ~350 cal, 45g protein, 2g carbs, and 18g fat. Rest of the meal details will come later, so the day remains open.",
+  "note": "Day 6. First normal slow-carb day after the first cheat day on Saturday, September 19; no cheat-day entries were logged. First food at 8:15 AM: 2 eggs, after the 8 AM cutoff and fully compliant. Black coffee at 8:25 AM. At 10:30 AM, had Silk organic unsweetened almondmilk with chia seeds, no protein powder; portion and macros use the same rough estimate as Sep 17. Egg macros are rough based on prior logged breakfasts. Hunger at about 11:24 AM was 7/10; Madhu thought this was likely post-cheat-day calorie expectation. No snack was taken under the standing no-snacks rule. At about 3:41 PM, had roasted chicken from the PCC Green Lake Village hot bar in Seattle. Purchased 0.58 lb at $11.99/lb ($7.68 with tax); photo showed roughly 2 drumsticks plus a thigh portion. Estimated edible meat 150–180g and logged rough at ~350 cal, 45g protein, 2g carbs, and 18g fat. Rest of the meal details will come later, so the day remains open. Dinner around 7:45 PM at Menya Muso Seattle: spicy miso ramen without the ramen, meaning no noodles, with tofu. Estimated conservatively as a rich spicy miso broth bowl with tofu and standard vegetables at ~450 cal, 20g protein, 25g carbs, and 28g fat. Bean sprouts and green onion are assumed; corn was not reported and is assumed absent. Skipping noodles was a major compliance win at a ramen shop. Strict deviation candidate, if any, is trace sugar in the spicy miso/tare.",
   "steps_hourly": [],
   "steps_note": "No Apple Health sync yet today.",
-  "timeline_insight": "Back on the normal slow-carb protocol after the first cheat day. First food at 8:15 AM was 2 eggs, after the 8 AM cutoff, followed by black coffee at 8:25 AM. At 10:30 AM, had almond milk with chia seeds, no protein powder. Hunger reached 7/10 at about 11:24 AM, likely from post-cheat-day calorie expectation; no snack taken. At about 3:41 PM, had a substantial protein serving: PCC hot-bar roasted chicken, roughly 2 drumsticks plus a thigh portion; logged as an estimate, with the rest of lunch still to come.",
+  "timeline_insight": "Back on the normal slow-carb protocol after the first cheat day. First food at 8:15 AM was 2 eggs, after the 8 AM cutoff, followed by black coffee at 8:25 AM. At 10:30 AM, had almond milk with chia seeds, no protein powder. Hunger reached 7/10 at about 11:24 AM, likely from post-cheat-day calorie expectation; no snack taken. At about 3:41 PM, had a substantial protein serving: PCC hot-bar roasted chicken, roughly 2 drumsticks plus a thigh portion; logged as an estimate, with the rest of lunch still to come. Dinner around 7:45 PM at Menya Muso: spicy miso broth with tofu and vegetables, no noodles. Skipping noodles was a major compliance win; trace sugar in the miso/tare is the only strict deviation candidate.",
   "totals": {
-    "cal": 732,
-    "carbs_g": 22,
-    "fat_g": 43,
-    "protein_g": 65,
+    "cal": 1182,
+    "carbs_g": 47,
+    "fat_g": 71,
+    "protein_g": 85,
     "rough": true
   },
   "weekday": "Sunday",
