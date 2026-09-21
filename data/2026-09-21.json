@@ -1,0 +1,61 @@
+{
+  "activity": [],
+  "compliance_checks": {
+    "no_dairy": true,
+    "no_fruit": true,
+    "no_liquid_calories": false,
+    "no_white_carbs": true,
+    "no_food_before_8am": true
+  },
+  "date": "2026-09-21",
+  "day_number": 7,
+  "day_total": 182,
+  "events": [],
+  "hunger": [
+    {
+      "level": 7.5,
+      "note": "Hunger 7.5/10 about four hours after lunch, before the planned Ascend Steakhouse dinner. Chose an OWYN Pro Elite shake as the between-lunch-and-dinner protein bridge.",
+      "time": "~2:39 PM"
+    }
+  ],
+  "meals": [
+    {
+      "cal": 500,
+      "carbs_g": 50,
+      "compliance": "SCD-compliant home-cooked lunch: soy and lentils are allowed legumes; okra is a non-starchy vegetable. Portion and preparation details were not reported, so macros are conservative rough estimates.",
+      "fat_g": 18,
+      "items": "Home-cooked soya chops with yellow dal and okra lentil soup; same soya chops preparation as previously referenced, exact portion not reported",
+      "meal": "Lunch",
+      "protein_g": 35,
+      "rough": true,
+      "time": "12:15 PM"
+    },
+    {
+      "cal": 200,
+      "carbs_g": 9,
+      "compliance": "Dairy-free and zero sugar; taken at an appropriate between-lunch-and-dinner time, though liquid calories remain a protocol watch-out",
+      "fat_g": 5,
+      "items": "OWYN Pro Elite plant protein shake, 32g protein",
+      "meal": "Snack / protein drink",
+      "protein_g": 32,
+      "rough": true,
+      "time": "~2:40 PM"
+    }
+  ],
+  "note": "Day 7. Lunch at 12:15 PM: home-cooked soya chops with yellow dal and okra lentil soup. Soy and lentils are allowed legumes and okra is a non-starchy vegetable, so the meal is SCD-compliant. Exact portions and preparation details were not reported; lunch macros are conservative rough estimates. At about 2:39 PM, roughly four hours after lunch, hunger was 7.5/10. Chose an OWYN Pro Elite shake as the protein bridge between lunch and dinner; logged at the standing label-based estimate of ~200 calories, 32g protein, 9g carbs, and 5g fat. Dairy-free and zero sugar, with liquid calories kept as a protocol watch-out. Dinner is planned at Ascend Steakhouse and is not yet logged.",
+  "steps_hourly": [],
+  "steps_note": "No Apple Health sync yet today.",
+  "timeline_insight": "Lunch at 12:15 PM was a compliant home-cooked vegetarian meal: soya chops with yellow dal and okra soup. Hunger reached 7.5/10 around 2:39 PM, about four hours later. An OWYN Pro Elite shake was used as the planned between-meals protein bridge before dinner at Ascend Steakhouse.",
+  "totals": {
+    "cal": 700,
+    "carbs_g": 59,
+    "fat_g": 23,
+    "protein_g": 67,
+    "rough": true
+  },
+  "weekday": "Monday",
+  "subjective_state": [],
+  "steps_total": 0,
+  "distance_mi": 0,
+  "workouts": []
+}
