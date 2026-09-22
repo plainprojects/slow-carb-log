@@ -1,0 +1,89 @@
+{
+  "activity": [],
+  "compliance_checks": {
+    "no_dairy": true,
+    "no_fruit": true,
+    "no_liquid_calories": false,
+    "no_white_carbs": true,
+    "no_food_before_8am": false
+  },
+  "date": "2026-09-22",
+  "day_number": 8,
+  "day_total": 182,
+  "events": [
+    {
+      "kind": "coffee",
+      "label": "Black coffee",
+      "start": "07:00"
+    }
+  ],
+  "hunger": [
+    {
+      "level": 7,
+      "note": "Hunger already at 7/10 about 2 hours 40 minutes after breakfast; reached for a standard OWYN dark chocolate 20g-protein shake.",
+      "time": "9:40 AM"
+    }
+  ],
+  "meals": [
+    {
+      "cal": 140,
+      "carbs_g": 1,
+      "compliance": "SCD-compliant food; eaten before the 8 AM cutoff",
+      "fat_g": 10,
+      "items": "2 eggs",
+      "meal": "Breakfast",
+      "protein_g": 12,
+      "rough": true,
+      "time": "7:00 AM"
+    },
+    {
+      "cal": 242,
+      "carbs_g": 19,
+      "compliance": "SCD-compliant food; same standing portion estimate; eaten before the 8 AM cutoff",
+      "fat_g": 15,
+      "items": "Silk organic unsweetened almondmilk + chia seeds (standing estimate; almondmilk label per cup: 40 cal, 3.5g fat, 1g carb, 1g protein)",
+      "meal": "Breakfast",
+      "protein_g": 8,
+      "rough": true,
+      "time": "7:00 AM"
+    },
+    {
+      "cal": 0,
+      "carbs_g": 0,
+      "compliance": "SCD-compliant; black coffee",
+      "fat_g": 0,
+      "items": "Black coffee",
+      "meal": "Drink",
+      "protein_g": 0,
+      "rough": false,
+      "time": "7:00 AM"
+    },
+    {
+      "cal": 180,
+      "carbs_g": 8,
+      "compliance": "Dairy-free; 20g protein and 5g net carbs per label. Liquid calories and 4g added sugar are protocol watch-outs.",
+      "fat_g": 7,
+      "items": "OWYN standard dairy-free plant protein shake, dark chocolate, 12 fl oz (label: 20g protein, 5g net carbs, 3g prebiotic fiber, incl. 4g added sugar)",
+      "meal": "Snack / protein drink",
+      "protein_g": 20,
+      "rough": false,
+      "time": "9:40 AM"
+    }
+  ],
+  "note": "Day 8. Breakfast at 7:00 AM: 2 eggs, Silk organic unsweetened almondmilk with chia seeds, and black coffee. The food itself was SCD-compliant, but breakfast was one hour before the 8 AM cutoff and is logged as a protocol deviation. At 9:40 AM, about 2 hours 40 minutes after breakfast, hunger was already 7/10. Reached for a standard OWYN dark chocolate 20g-protein shake. The 12 fl oz label provides 180 calories, 20g protein, 8g total carbs (5g net; 3g prebiotic fiber), 7g fat, and 4g added sugar. It is dairy-free, while liquid calories and added sugar remain protocol watch-outs.",
+  "steps_hourly": [],
+  "steps_note": "No Apple Health sync yet today.",
+  "timeline_insight": "Breakfast at 7:00 AM was 2 eggs, almondmilk with chia seeds, and black coffee. The food was compliant, but the timing was one hour before the 8 AM cutoff. Hunger reached 7/10 by 9:40 AM, about 2 hours 40 minutes later, prompting a standard OWYN dark chocolate 20g-protein shake.",
+  "totals": {
+    "cal": 562,
+    "carbs_g": 28,
+    "fat_g": 32,
+    "protein_g": 40,
+    "rough": true
+  },
+  "weekday": "Tuesday",
+  "subjective_state": [],
+  "steps_total": 0,
+  "distance_mi": 0,
+  "workouts": []
+}
